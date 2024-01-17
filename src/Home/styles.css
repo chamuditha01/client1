@@ -1,0 +1,20 @@
+
+.Header {
+    font-size: 24px;
+    font-weight: bold;
+    color: purple;
+    margin-bottom: 20px;}
+    .Button {
+        background-color: blue;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .Home {
+        background-color: black;
+        font-size: 24px;
+        font-weight: bold;
+        color: purple;
+        margin-bottom: 20px;}
+      
