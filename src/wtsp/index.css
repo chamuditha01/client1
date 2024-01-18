@@ -1,0 +1,28 @@
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px; 
+    height: auto;
+    z-index: 10;
+    animation: zoomIn 3s infinite; 
+    cursor: pointer;
+  }
+  
+
+
+@keyframes zoomIn {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+ 
+  
