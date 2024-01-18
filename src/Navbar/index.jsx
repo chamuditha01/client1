@@ -29,12 +29,12 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
-              <NavItems NavItem id={"nav1"} name={'Service'} path={'/service'} />
+              <NavItems NavItem id={"nav1"} name={'About'} path={'/About'} />
               <NavItems NavItem id={"nav1"} name={'Pet Shop'} path={'/loginshop'} />
             </ul>
 
             <ul className="navbar-nav mb-2 mb-lg-0 right">
-              <NavItems NavItem id={"nav"} name={'Login'} path={'/login'} />
+              <NavItems NavItem id={"nav"} name={'Contact us'} path={'/Contact us'} />
               <a className="top" href="/login">
                 <img id="per" src={per} alt="" />
               </a>
