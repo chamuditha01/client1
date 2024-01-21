@@ -1,8 +1,8 @@
 import NavItems from '../Navitems';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import logo from './logo.jpg';
-import per from './login.png';
+import logo from './logo1.png';
+import per from './Contactus.png';
 
 function Navbar() {
   return (
