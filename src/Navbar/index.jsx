@@ -49,6 +49,24 @@ function Navbar() {
       <a className="dropdown-item" href="/category2">
         Electronics
       </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
       {/* Add more categories as needed */}
     </div>
   </li>
