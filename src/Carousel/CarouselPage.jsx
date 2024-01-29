@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
@@ -6,23 +6,45 @@ import img1 from './img1.jpg';
 import img2 from './img2.jpg';
 import img3 from './img3.jpg';
 import './CarouselPage.css';
-import logo from './logo.jpg';
+import logo1 from './logo1.png';
 import per from './login.png';
 
 import NavItems from '../Navitems';
 
 function CarouselPage() {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div>
-      <Navbar bg="transparent" expand="lg" variant="light" fixed="top">
+      <Navbar
+        bg={scrolling ? 'dark' : 'transparent'}
+        expand="lg"
+        variant="dark"
+        fixed="top"
+      >
         
           
           <nav className="navbar navbar-expand-lg custom-navbar" id="n1">
         <div className="container-fluid">
 
-          <a className="navbar-brand" href="/">
-            <img src={logo} alt="Logo" />
-          </a>
+        
 
           <button
             className="navbar-toggler"
@@ -82,7 +104,9 @@ function CarouselPage() {
       </a>
       {/* Add more categories as needed */}
     </div>
-  </li>
+  </li>  <a className="navbar-brand" href="/">
+            <img src={logo1} alt="Logo" />
+          </a>
 </ul>
 
 
@@ -117,7 +141,7 @@ function CarouselPage() {
           <img
             style={{ height: '80vh' }}
             className="d-block w-100"
-            src={img1}
+            src={img2}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -129,7 +153,7 @@ function CarouselPage() {
           <img
             style={{ height: '80vh' }}
             className="d-block w-100"
-            src={img1}
+            src={img3}
             alt="First slide"
           />
           <Carousel.Caption>

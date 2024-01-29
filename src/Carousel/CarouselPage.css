@@ -8,11 +8,7 @@
     margin: 0px;
 }
   
-  .navbar-brand img {
-    margin-left: 50px;
-    width: 50px;
-    border-radius: 30px;
-  }
+
   .navbar-nav{
     margin-left: 50px;
   }
@@ -39,7 +35,7 @@
   .custom-navbar .navbar-nav .nav-link {
     font-size: 18px; 
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
   
@@ -51,7 +47,7 @@
     height: 30px; 
   }
   .custom-navbar {
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
+    
   }
   
   
@@ -98,6 +94,22 @@
   
   #nav1{
     margin-top: 8px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
+/* styles.css */
+
+.custom-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.custom-navbar.scrolling {
+  background-color: #000000; /* Change this to the desired color when scrolling */
+}
+
+.navbar-brand img {
+  
+  width: 150px;
+}
+
