@@ -94,7 +94,7 @@ function CarouselPage() {
         
       </Navbar>
 
-      <Carousel fade={true /* Set to false for sliding style */}>
+      <Carousel fade={true }>
         <Carousel.Item>
           <img
             style={{ height: '80vh' }}
@@ -111,7 +111,7 @@ function CarouselPage() {
           <img
             style={{ height: '80vh' }}
             className="d-block w-100"
-            src={img1}
+            src={img2}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -123,7 +123,7 @@ function CarouselPage() {
           <img
             style={{ height: '80vh' }}
             className="d-block w-100"
-            src={img1}
+            src={img3}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -131,7 +131,7 @@ function CarouselPage() {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* Add other Carousel.Items as needed */}
+        
       </Carousel>
     </div>
   );
