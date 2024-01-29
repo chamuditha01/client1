@@ -78,7 +78,7 @@ function Navbar() {
 
 
             <ul className="navbar-nav mb-2 mb-lg-0 right">
-              <NavItems NavItem id={"nav"} name={'Login'} path={'/login'} />
+              <NavItems NavItem id={"nav"} name={'Contact Us'} path={'/login'} />
               <a className="top" href="/login">
                 <img id="per" src={per} alt="" />
               </a>
