@@ -1,6 +1,6 @@
 // Import React and any other necessary dependencies
 import React from 'react';
-import './footer.css' // Make sure to import your styles
+import './footer.css'; // Make sure to import your styles
 
 // Define the Footer component
 const Footer = () => {
@@ -13,6 +13,7 @@ const Footer = () => {
           <li><a href="#">advertising</a></li>
           <li><a href="#">talent</a></li>
         </ul>
+        <hr />
       </div>
       <div className="footer-col">
         <h4>network</h4>
@@ -23,6 +24,7 @@ const Footer = () => {
           <li><a href="#">professional</a></li>
           <li><a href="#">API</a></li>
         </ul>
+        <hr />
       </div>
       <div className="footer-col">
         <h4>company</h4>
@@ -31,6 +33,7 @@ const Footer = () => {
           <li><a href="#">legal</a></li>
           <li><a href="#">contact us</a></li>
         </ul>
+        <hr />
       </div>
       <div className="footer-col">
         <h4>follow us</h4>
