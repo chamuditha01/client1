@@ -14,7 +14,7 @@ import NavItems from '../Navitems';
 function CarouselPage() {
   return (
     <div>
-      <Navbar bg="transparent" expand="lg" variant="light" fixed="top">
+      <Navbar bg="transparent" expand="lg" variant="light" fixed="top" className="fixed-top">
         
           
           <nav className="navbar navbar-expand-lg custom-navbar" id="n1">
@@ -94,7 +94,7 @@ function CarouselPage() {
         
       </Navbar>
 
-      <Carousel>
+      <Carousel fade={true /* Set to false for sliding style */}>
         <Carousel.Item>
           <img
             style={{ height: '80vh' }}
@@ -115,7 +115,7 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3>second slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
