@@ -27,11 +27,59 @@ function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+<<<<<<< HEAD
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
               <NavItems NavItem id={"nav1"} name={'Service'} path={'/service'} />
               <NavItems NavItem id={"nav1"} name={'Pet Shop'} path={'/loginshop'} />
             </ul>
+=======
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+  <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
+  <NavItems NavItem id={"nav1"} name={'About Us'} path={'/service'} />
+  <li className="nav-item dropdown ">
+    <a
+      className="nav-link dropdown-toggle "
+      href="#"
+      id="nav1"
+      role="button"
+      data-bs-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      Categories
+    </a>
+    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a className="dropdown-item" href="/category1">
+      Cloths
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronicss
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      <a className="dropdown-item" href="/category2">
+        Electronics
+      </a>
+      {/* Add more categories as needed */}
+    </div>
+  </li>
+</ul>
+
+>>>>>>> 0b376492ed71f4ef81f2aefa2b7977fcdbc2c1cb
 
             <ul className="navbar-nav mb-2 mb-lg-0 right">
               <NavItems NavItem id={"nav"} name={'Login'} path={'/login'} />
