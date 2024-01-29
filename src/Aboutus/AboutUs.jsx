@@ -5,11 +5,11 @@ import './Aboutus.css';
 const AboutUs = () => (
     <div className='about section__padding'>
         <div className='container'>
-            <div className='headAbout'>
+            <div className='headAbout' style={{marginTop:'40px', textAlign:'center'}}>
            About us
             </div>
-            <div className='deatailsAbout'>Trading companies are businesses working with
-Dierent kinds of products which are sold for 
+            <div className='deatailsAbout' style={{textAlign:'justify'}}>Trading companies are businesses working with
+Different kinds of products which are sold for 
 Consumer, business. We will provide any product
 which is related to Resort maintenance.We 
 supplying engineering products to resort in 
