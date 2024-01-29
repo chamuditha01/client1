@@ -33,16 +33,12 @@ function CarouselPage() {
 
   return (
     <div>
-<<<<<<< HEAD
       <Navbar
         bg={scrolling ? 'dark' : 'transparent'}
         expand="lg"
         variant="dark"
         fixed="top"
       >
-=======
-      <Navbar bg="transparent" expand="lg" variant="light" fixed="top" className="fixed-top">
->>>>>>> b56683786b26fe32284f77f42be629ab502e3119
         
           
           <nav className="navbar navbar-expand-lg custom-navbar" id="n1">
@@ -63,8 +59,10 @@ function CarouselPage() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
+
+         
+
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-<<<<<<< HEAD
   <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
   <NavItems NavItem id={"nav1"} name={'About Us'} path={'/service'} />
   <li className="nav-item dropdown ">
@@ -113,51 +111,6 @@ function CarouselPage() {
 
 
 
-=======
-          <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
-          <NavItems NavItem id={"nav1"} name={'About Us'} path={'/service'} />
-          <li className="nav-item dropdown ">
-            <a
-              className="nav-link dropdown-toggle "
-              href="#"
-              id="nav1"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Categories
-            </a>
-            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="/category1">
-              Cloths
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronics
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronics
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronicss
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronics
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronics
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronics
-              </a>
-              <a className="dropdown-item" href="/category2">
-                Electronics
-              </a>
-              {/* Add more categories as needed */}
-            </div>
-          </li>
-        </ul>
->>>>>>> b56683786b26fe32284f77f42be629ab502e3119
             <ul className="navbar-nav mb-2 mb-lg-0 right">
               <NavItems NavItem id={"nav"} name={'Contact Us'} path={'/login'} />
               <a className="top" href="/login">
@@ -171,7 +124,7 @@ function CarouselPage() {
         
       </Navbar>
 
-      <Carousel fade={true }>
+      <Carousel>
         <Carousel.Item>
           <img
             style={{ height: '80vh' }}
@@ -192,7 +145,7 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>second slide label</h3>
+            <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -208,7 +161,7 @@ function CarouselPage() {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        
+        {/* Add other Carousel.Items as needed */}
       </Carousel>
     </div>
   );
