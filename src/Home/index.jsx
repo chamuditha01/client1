@@ -10,6 +10,8 @@ const Home =()=>{
     <div>
         <Header/>
        <WhatsAppIcon/>
+
+       
     </div>
   )
 }
