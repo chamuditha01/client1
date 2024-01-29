@@ -53,7 +53,7 @@ function Navbar() {
         Electronics
       </a>
       <a className="dropdown-item" href="/category2">
-        Electronics
+        Electronicss
       </a>
       <a className="dropdown-item" href="/category2">
         Electronics
