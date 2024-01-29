@@ -97,7 +97,7 @@ function CarouselPage() {
       <Carousel>
         <Carousel.Item>
           <img
-            style={{ height: '100vh' }}
+            style={{ height: '80vh' }}
             className="d-block w-100"
             src={img1}
             alt="First slide"
@@ -109,7 +109,7 @@ function CarouselPage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: '100vh' }}
+            style={{ height: '80vh' }}
             className="d-block w-100"
             src={img1}
             alt="First slide"
@@ -121,7 +121,7 @@ function CarouselPage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: '100vh' }}
+            style={{ height: '80vh' }}
             className="d-block w-100"
             src={img1}
             alt="First slide"

@@ -1,5 +1,40 @@
+:root {
+  /* Background Color */
+  --primary-color: #003399;
+  --secondary-color: #b4efff;
+  --primary-nav-color: #e21056;
+  --primary-bg: rgb(153 0 51 / 14%);
+  --font-color: #b7b7b7;
+  --bg-color: #171717;
+  --bg-dark-color: #0c0b0b;
+  --white-color: #fdfffc;
+  --green-color: #0abf53; 
+  --green-color-bg: rgb(10 191 83 / 17%);
+  --blue-color: #6168ff; 
+  --blue-color-bg: rgb(97 104 255 / 9%);
+  --border-color-light: rgba(255, 255, 255, 0.2);  
+  --box-shadow: 0 1rem 3rem rgb(0 0 0 / 12%);
+  --dark-layer-color: linear-gradient(to top, rgb(21 21 21 / 67%), rgb(23 23 23 / 17%));
+
+  /* Font Family */
+  --primary-font: 'Poppins', sans-serif;
+}
 .App {
   text-align: center;
+}
+body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: .375rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
 }
 
 .App-logo {
