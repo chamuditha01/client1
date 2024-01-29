@@ -60,4 +60,26 @@
   }
   
 
+  /* Header.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg1.jpg'); /* Replace 'path/to/your/background-image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the background image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+  }
+  
+  .header {
+    /* Your existing styles for the header */
+    /* ... */
+  }
+  
+  .container2 {
+    /* Your existing styles for the container2 */
+    /* ... */
+  }
+  
+  /* Add more styles as needed */
   
