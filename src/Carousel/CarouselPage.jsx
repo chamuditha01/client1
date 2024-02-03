@@ -125,7 +125,7 @@ function CarouselPage() {
       <Carousel fade={true }>
         <Carousel.Item>
           <img
-            style={{ height: '80vh' }}
+            style={{ height: '80vh', objectFit:'cover' }}
             className="d-block w-100"
             src={img1}
             alt="First slide"
@@ -137,7 +137,7 @@ function CarouselPage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: '80vh' }}
+            style={{ height: '80vh' , objectFit:'cover'  }}
             className="d-block w-100"
             src={img2}
             alt="First slide"
@@ -149,7 +149,7 @@ function CarouselPage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: '80vh' }}
+            style={{ height: '80vh' , objectFit:'cover' }}
             className="d-block w-100"
             src={img3}
             alt="First slide"
