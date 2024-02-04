@@ -38,6 +38,10 @@
     color: rgb(255, 255, 255);
   }
   
+  #u1{
+    margin-left: 30px;
+    margin-top: 9px;
+  }
   
   .form-control {
     font-weight: bold; 
@@ -105,9 +109,10 @@
 }
 
 .custom-navbar.scrolling {
-  background-color: rgba(0, 0, 0, 0.7);
-  /* Adjust the fourth value (0.7) to control the transparency */
+  background: linear-gradient(to right, rgba(252, 57, 57, 0.5), rgba(255, 255, 255, 0.5));
+  /* Adjust the alpha values to control transparency and the color stops for the gradient */
 }
+
 
 
 .navbar-brand img {

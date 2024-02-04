@@ -7,7 +7,6 @@ import img2 from './img2.jpg';
 import img3 from './img3.jpg';
 import './CarouselPage.css';
 import logo1 from './logo1.png';
-import per from './login.png';
 
 import NavItems from '../Navitems';
 
@@ -25,20 +24,17 @@ function CarouselPage() {
 
     window.addEventListener('scroll', handleScroll);
 
-    
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
+  const navbarBackground = scrolling ? 'black': 'linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))';
+
   return (
     <div>
-      <Navbar
-        bg={scrolling ? 'dark' : 'transparent'}
-        expand="lg"
-        variant="dark"
-        fixed="top"
-      >
+      <Navbar style={{ background: navbarBackground }} expand="lg" variant="dark" fixed="top">
+        
         
           
           <nav className="navbar navbar-expand-lg custom-navbar" id="n1">
@@ -55,7 +51,7 @@ function CarouselPage() {
               aria-expanded="false"
               aria-label="Toggle navigation"
 
-              style={{backgroundColor:'yellow', marginLeft:'auto'}}
+              style={{backgroundColor:'yellow', marginLeft:'auto',border:'none',borderRadius:'5px'}}
             >
               <span className="navbar-toggler-icon"></span>
             </button>
@@ -65,14 +61,14 @@ function CarouselPage() {
 
          
 
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0" >
               <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
               <NavItems NavItem id={"nav1"} name={'About Us'} path={'/service'} />
               <li className="nav-item dropdown ">
-                <a
+                <a 
                   className="nav-link dropdown-toggle "
                   href="#"
-                  id="nav1"
+                  id="u1"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-haspopup="true"
@@ -108,7 +104,7 @@ function CarouselPage() {
                   
                 </div>
               </li>  <a className="navbar-brand" href="/">
-                        <img src={logo1} alt="Logo" />
+                        <img style={{width:'110px'}} src={logo1} alt="Logo" />
                       </a>
             </ul>
 
