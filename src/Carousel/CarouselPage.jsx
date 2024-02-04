@@ -136,10 +136,10 @@ function CarouselPage() {
                 </li>
                 
                 <a className="navbar-brand" href="/">
-                  <img style={{ width: "50px", marginTop:'-20px',marginBottom:'-40px'}} src={logo1} alt="Logo" />
+                  <img style={{ width: "45px", marginTop:'-40px',marginBottom:'-50px'}} src={logo1} alt="Logo" />
                 </a>
               </ul>
-              <img style={{ width: "180px", marginTop:'-90px',marginBottom:'-120px'}} src={logo2} alt="Logo" />
+              <img style={{ width: "170px", marginTop:'-120px',marginBottom:'-150px'}} src={logo2} alt="Logo" />
               
             </div>
           </div>

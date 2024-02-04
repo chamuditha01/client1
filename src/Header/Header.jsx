@@ -6,6 +6,7 @@ import Navbar from "../Navbar";
 import AboutUs from "../Aboutus/AboutUs";
 import CarouselPage from "../Carousel/CarouselPage";
 import SocialIcons from "../SocialIcons";
+import ImageGrid from "../Category";
 
 
 
@@ -16,7 +17,7 @@ const Header = () => {
     
     >
       <div className="container2">
-        <CarouselPage/><AboutUs/>
+        <CarouselPage/><AboutUs/><ImageGrid/>
         <div className="header__content text__center text__light flex flex__center">
       
         </div>
