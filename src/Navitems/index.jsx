@@ -1,7 +1,9 @@
-const NavItems=({id,name,path})=>{
+import './index.css';
+
+const NavItems=({name,path})=>{
     return(
-        <div>
-            <a style={{color:'#0de2f1'}} id={id} class={"nav-link active"} aria-current="page" href={path}>{name}</a>
+        <div >
+            <a id="nav1"  href={path}><p id="nav">{name}</p></a>
         </div>
     )
 }

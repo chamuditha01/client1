@@ -1,0 +1,15 @@
+
+#nav:hover{
+    color: orange;
+}
+
+#nav1{
+    text-decoration: none;
+}
+#nav{
+    text-decoration: none;
+    color: #0de2f1;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: large;
+}

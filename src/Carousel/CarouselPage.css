@@ -40,7 +40,10 @@
   
   #u1{
     margin-left: 30px;
-    margin-top: 9px;
+    margin-top: 2px;
+    margin-bottom: -30px;
+    font-size: large;
+    font-weight: 400;
   }
   
   .form-control {
@@ -106,6 +109,7 @@
 .custom-navbar {
   background-color: transparent;
   transition: background-color 0.3s;
+  height: 60px;
 }
 
 .custom-navbar.scrolling {
@@ -151,7 +155,7 @@
 
 .navbar-brand img {
   
-  width: 150px;
+  width: 130px;
   margin-left: 110px;
 }
 @media (max-width: 992px) {
@@ -159,6 +163,9 @@
   
     width: 150px;
     margin-left: 30px;
+  }
+  #i1{
+    display: none;
   }
 }
 
