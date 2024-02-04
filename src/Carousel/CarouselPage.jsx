@@ -6,7 +6,7 @@ import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
 import img3 from "./img3.jpg";
 import "./CarouselPage.css";
-import logo1 from "./logo1.png";
+import logo1 from './logo1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SlArrowDown } from "react-icons/sl";
 
