@@ -2,6 +2,9 @@
 import React from 'react';
 import './footer.css'; // Make sure to import your styles
 import fb from './2021_Facebook_icon.svg.webp'
+import li from './circle-linkedin-512.webp'
+import con from './pngtree-circle-phone-call-icon-in-black-color-png-image_6596895.png'
+import email from './7718904.png'
 
 // Define the Footer component
 const Footer = () => {
@@ -39,10 +42,10 @@ const Footer = () => {
       <div className="footer-col">
         <h4>follow us</h4>
         <div className="links">
-          <a href="#"><i className="fab fa-linkedin-in"><img style={{width:'45px',marginBottom:'6px'}} src={fb} alt=""></img></i></a>
-          <a href="#"><i className="fab fa-facebook-f"></i></a>
-          <a href="#"><i className="fab fa-twitter"></i></a>
-          <a href="#"><i className="fab fa-instagram"></i></a>
+          <a href="#"><i className="fab fa-linkedin-in"><img style={{width:'45px',marginBottom:'6px'}} src={fb} alt="fb img"></img></i></a>
+          <a href="#"><i className="fab fa-facebook-f"><img style={{width:'45px',marginBottom:'8px',marginRight:'6px'}} src={li} alt="linkedin img"></img></i></a>
+          <a href="#"><i className="fab fa-twitter"><img style={{width:'45px',marginBottom:'6px'}} src={con} alt="contact img"></img></i></a>
+          <a href="#"><i className="fab fa-instagram"><img style={{width:'45px',marginBottom:'6px'}} src={email} alt="email img"></img></i></a>
         </div>
       </div>
     </footer>
