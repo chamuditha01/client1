@@ -10,7 +10,7 @@ import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from './logo2.png'
-import SocialIcons from "../SocialIcons";
+
 
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
@@ -101,38 +101,38 @@ function CarouselPage() {
                 
  
 
-                  <div
-                  style={{backgroundColor:'black'}}
+                <div
+                    style={{ backgroundColor: 'black', borderRadius: '0px' }}
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a  className="" href="/category1">
+                    <a className="" href="/category1">
                       Clothes
                     </a>
-                    
                     <a className="" href="/category2">
                       Electronics
+                    </a>
+                    <a className="" href="/category2">
+                      Household
+                    </a>
+                    <a className="" href="/category2">
+                      Electric
+                    </a>
+                    <a className="" href="/category2">
+                      Tools
                     </a>
                     <a className="" href="/category2">
                       Electronics
                     </a>
                     <a className="" href="/category2">
-                      Electronics
-                    </a>
-                    <a className="" href="/category2">
-                      Electronics
-                    </a>
-                    <a className="" href="/category2">
-                      Electronics
-                    </a>
-                    <a className="" href="/category2">
-                      Electronics
+                      Dresses
                     </a>
                     <a className="" href="/category2">
                       Electronics
                     </a>
                   </div>
+
                 </li>
                 
                 <a className="navbar-brand" href="/">
@@ -154,7 +154,7 @@ function CarouselPage() {
             src={img1}
             alt="First slide"
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -166,7 +166,7 @@ function CarouselPage() {
             src={img2}
             alt="First slide"
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="text-center">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -178,7 +178,7 @@ function CarouselPage() {
             src={img3}
             alt="First slide"
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="text-center">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
