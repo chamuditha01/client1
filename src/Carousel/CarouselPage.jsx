@@ -6,14 +6,8 @@ import img1 from "./img1.jpg";
 import img2 from "./img2.jpg";
 import img3 from "./img3.jpg";
 import "./CarouselPage.css";
-<<<<<<< HEAD
 import logo1 from "./logo1.png";
-=======
-import logo1 from './logo1.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
->>>>>>> 9c371b72f08b9a0f659ffc56ca61367fec2ecd6a
 import { SlArrowDown } from "react-icons/sl";
-
 import NavItems from "../Navitems";
 
 function CarouselPage() {
@@ -131,7 +125,7 @@ function CarouselPage() {
                   </div>
                 </li>{" "}
                 <a className="navbar-brand" href="/">
-                  <img style={{ width: "110px" }} src={logo1} alt="Logo" />
+                  <img style={{ width: "50px", marginTop:'-10px',marginBottom:'-20px'}} src={logo1} alt="Logo" />
                 </a>
               </ul>
 
