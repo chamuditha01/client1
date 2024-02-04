@@ -54,7 +54,7 @@ function CarouselPage() {
               aria-expanded="false"
               aria-label="Toggle navigation"
               style={{
-                backgroundColor: "yellow",
+                backgroundColor: "#FF5733 ",
                 marginLeft: "auto",
                 borderRadius: "5px",
                 width: "40px",
