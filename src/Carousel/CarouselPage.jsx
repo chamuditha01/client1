@@ -9,7 +9,7 @@ import "./CarouselPage.css";
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
-import logo2 from './logo2.png'
+import logo2 from './logo5.png'
 
 
 function CarouselPage() {
@@ -32,7 +32,7 @@ function CarouselPage() {
   }, []);
 
   const navbarBackground = scrolling
-    ? "black"
+    ? "white"
     : "linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))";
 
   return (
@@ -87,7 +87,7 @@ function CarouselPage() {
             
                 <li className="nav-item dropdown ">
                 <a
-                style={{color:'#f1bc0d'}}
+                style={{color:'#0de2f1'}}
                   className="nav-link "
                   href="#"
                   id="u1"
@@ -139,7 +139,7 @@ function CarouselPage() {
                   <img style={{ width: "50px", marginTop:'-20px',marginBottom:'-40px'}} src={logo1} alt="Logo" />
                 </a>
               </ul>
-              <img style={{ width: "180px", marginTop:'-120px',marginBottom:'-120px'}} src={logo2} alt="Logo" />
+              <img style={{ width: "180px", marginTop:'-90px',marginBottom:'-120px'}} src={logo2} alt="Logo" />
               
             </div>
           </div>
