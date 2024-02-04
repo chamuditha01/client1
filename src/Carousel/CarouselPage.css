@@ -105,8 +105,10 @@
 }
 
 .custom-navbar.scrolling {
-  background-color: #000000; /* Change this to the desired color when scrolling */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Adjust the fourth value (0.7) to control the transparency */
 }
+
 
 .navbar-brand img {
   
@@ -117,7 +119,7 @@
   .navbar-brand img {
   
     width: 150px;
-    margin-left: 40px;
+    margin-left: 30px;
   }
 }
 

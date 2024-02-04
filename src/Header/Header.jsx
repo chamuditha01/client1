@@ -1,9 +1,10 @@
 import React from "react";
 import './Header.css';
 import Navbar from "../Navbar";
-import CarouselPage from "../Carousel/CarouselPage";
+
 
 import AboutUs from "../Aboutus/AboutUs";
+import CarouselPage from "../Carousel/CarouselPage";
 
 
 
