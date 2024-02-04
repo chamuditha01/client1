@@ -75,6 +75,14 @@ function CarouselPage() {
                   name={"About Us"}
                   path={"/service"}
                 />
+                
+                <NavItems
+                  NavItem
+                  id={"nav1"}
+                  name={"Contact Us"}
+                  path={"/login"}
+                />
+            
                 <li className="nav-item dropdown ">
                 <a
                 style={{color:'#f1bc0d'}}
@@ -88,7 +96,7 @@ function CarouselPage() {
                 >
                   Categories <SlArrowDown  />
                 </a>
-
+                
  
 
                   <div
@@ -123,20 +131,14 @@ function CarouselPage() {
                       Electronics
                     </a>
                   </div>
-                </li>{" "}
+                </li>
+                
                 <a className="navbar-brand" href="/">
                   <img style={{ width: "50px", marginTop:'-10px',marginBottom:'-20px'}} src={logo1} alt="Logo" />
                 </a>
               </ul>
 
-              <ul className="navbar-nav mb-2 mb-lg-0 right">
-                <NavItems
-                  NavItem
-                  id={"nav"}
-                  name={"Contact Us"}
-                  path={"/login"}
-                />
-              </ul>
+              
             </div>
           </div>
         </nav>
