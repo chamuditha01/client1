@@ -7,7 +7,6 @@ import img2 from "./img2.jpg";
 import img3 from "./img3.jpg";
 import "./CarouselPage.css";
 import logo1 from "./logo1.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { SlArrowDown } from "react-icons/sl";
 
 import NavItems from "../Navitems";
@@ -79,6 +78,7 @@ function CarouselPage() {
                 />
                 <li className="nav-item dropdown ">
                 <a
+                style={{color:'#f1bc0d'}}
                   className="nav-link "
                   href="#"
                   id="u1"
@@ -101,6 +101,7 @@ function CarouselPage() {
                     <a  className="" href="/category1">
                       Clothes
                     </a>
+                    
                     <a className="" href="/category2">
                       Electronics
                     </a>

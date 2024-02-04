@@ -1,6 +1,7 @@
 // Import React and any other necessary dependencies
 import React from 'react';
 import './footer.css'; // Make sure to import your styles
+import fb from './2021_Facebook_icon.svg.webp'
 
 // Define the Footer component
 const Footer = () => {
@@ -38,7 +39,7 @@ const Footer = () => {
       <div className="footer-col">
         <h4>follow us</h4>
         <div className="links">
-          <a href="#"><i className="fab fa-linkedin-in"></i></a>
+          <a href="#"><i className="fab fa-linkedin-in"><img style={{width:'45px',marginBottom:'6px'}} src={fb} alt=""></img></i></a>
           <a href="#"><i className="fab fa-facebook-f"></i></a>
           <a href="#"><i className="fab fa-twitter"></i></a>
           <a href="#"><i className="fab fa-instagram"></i></a>
