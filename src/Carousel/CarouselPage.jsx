@@ -9,6 +9,7 @@ import "./CarouselPage.css";
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
+import logo2 from './logo2.png'
 
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
@@ -134,10 +135,10 @@ function CarouselPage() {
                 </li>
                 
                 <a className="navbar-brand" href="/">
-                  <img style={{ width: "50px", marginTop:'-10px',marginBottom:'-20px'}} src={logo1} alt="Logo" />
+                  <img style={{ width: "50px", marginTop:'-20px',marginBottom:'-40px'}} src={logo1} alt="Logo" />
                 </a>
               </ul>
-
+              <img style={{ width: "180px", marginTop:'-120px',marginBottom:'-120px'}} src={logo2} alt="Logo" />
               
             </div>
           </div>
