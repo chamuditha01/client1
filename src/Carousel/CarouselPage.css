@@ -75,7 +75,7 @@
   
   .dropdown-item {
     font-size:smaller;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
     transition: background-color 0.2s;
     border-radius: 10px; 
@@ -114,7 +114,7 @@
 }
 
 #a1 a{
-  color: #f1bc0d;
+  color: #0de2f1;
   width: 140px;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
