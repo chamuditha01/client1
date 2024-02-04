@@ -7,6 +7,8 @@ import img2 from "./img2.jpg";
 import img3 from "./img3.jpg";
 import "./CarouselPage.css";
 import logo1 from "./logo1.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { SlArrowDown } from "react-icons/sl";
 
 import NavItems from "../Navitems";
 
@@ -76,17 +78,20 @@ function CarouselPage() {
                   path={"/service"}
                 />
                 <li className="nav-item dropdown ">
-                  <a
-                    className="nav-link dropdown-toggle "
-                    href="#"
-                    id="u1"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Categories
-                  </a>
+                <a
+                  className="nav-link "
+                  href="#"
+                  id="u1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Categories <SlArrowDown  />
+                </a>
+
+ 
+
                   <div
                   style={{backgroundColor:'black'}}
                     className="dropdown-menu"
@@ -103,7 +108,7 @@ function CarouselPage() {
                       Electronics
                     </a>
                     <a className="" href="/category2">
-                      Electronicss
+                      Electronics
                     </a>
                     <a className="" href="/category2">
                       Electronics
