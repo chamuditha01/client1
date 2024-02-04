@@ -10,6 +10,7 @@ import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from './logo2.png'
+import SocialIcons from "../SocialIcons";
 
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
@@ -144,7 +145,7 @@ function CarouselPage() {
           </div>
         </nav>
       </Navbar>
-
+      
       <Carousel fade={true}>
         <Carousel.Item>
           <img
@@ -184,6 +185,7 @@ function CarouselPage() {
         </Carousel.Item>
         {/* Add other Carousel.Items as needed */}
       </Carousel>
+      
     </div>
   );
 }

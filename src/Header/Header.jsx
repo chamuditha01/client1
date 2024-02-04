@@ -5,6 +5,7 @@ import Navbar from "../Navbar";
 
 import AboutUs from "../Aboutus/AboutUs";
 import CarouselPage from "../Carousel/CarouselPage";
+import SocialIcons from "../SocialIcons";
 
 
 
