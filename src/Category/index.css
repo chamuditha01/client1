@@ -1,0 +1,15 @@
+
+#imgcat{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+@media (max-width: 992px) {
+    #imgcat{
+        height: 230px;
+       width: 230px;
+       
+    }
+  }
