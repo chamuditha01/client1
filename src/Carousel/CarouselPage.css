@@ -113,6 +113,17 @@
   /* Adjust the alpha values to control transparency and the color stops for the gradient */
 }
 
+#a1 a{
+  color: yellow;
+  width: 140px;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#a1 a:hover{
+  background-color: #333;
+  border-radius: 5px;
+  width: 155px;
+}
 
 
 .navbar-brand img {
