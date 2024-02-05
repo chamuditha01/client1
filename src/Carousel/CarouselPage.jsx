@@ -10,6 +10,7 @@ import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from './logo5.png'
+import { Color } from "three";
 
 
 function CarouselPage() {
@@ -154,8 +155,9 @@ function CarouselPage() {
             src={img1}
             alt="First slide"
           />
-          <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center">
-            <h3>First slide label</h3>
+          <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center"
+>
+            <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
