@@ -15,6 +15,8 @@ import logo2 from './logo5.png'
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
 
+  
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -31,6 +33,8 @@ function CarouselPage() {
     };
   }, []);
 
+  
+
   const navbarBackground = scrolling
     ? "white"
     : "linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))";
@@ -43,7 +47,10 @@ function CarouselPage() {
         variant="dark"
         fixed="top"
       >
-        <nav className="navbar navbar-expand-lg custom-navbar" id="n1">
+        <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
+        <a className="navbar-brand" href="/">
+                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}} src={logo1} alt="Logo" />
+                </a>
           <div className="container-fluid">
             <button
               className="navbar-toggler"
@@ -54,9 +61,10 @@ function CarouselPage() {
               aria-expanded="false"
               aria-label="Toggle navigation"
               style={{
-                backgroundColor: "#FF5733 ",
+                backgroundColor: "#0de2f1 ",
                 marginLeft: "auto",
                 borderRadius: "5px",
+                marginTop:'-40px',
                 width: "40px",
                 padding: "0px",
                 borderStyle: "none",
@@ -75,19 +83,19 @@ function CarouselPage() {
                   NavItem
                   
                   name={"About Us"}
-                  path={"/service"}
+                  path={"/About Us"}
                 />
                 
                 <NavItems
                   NavItem
                   
                   name={"Contact Us"}
-                  path={"/login"}
+                  path={"/Contact Us"}
                 />
             
                 <li className="nav-item dropdown ">
                 <a
-                style={{color:'#0de2f1'}}
+                
                   className="nav-link "
                   href="#"
                   id="u1"
@@ -96,6 +104,7 @@ function CarouselPage() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
+
                   Categories <SlArrowDown  />
                 </a>
                 
@@ -139,7 +148,7 @@ function CarouselPage() {
                   <img id="i1" style={{ width: "35px", marginTop:'-70px',marginBottom:'-70px'}} src={logo1} alt="Logo" />
                 </a>
               </ul>
-              <img style={{ width: "150px", marginTop:'-140px',marginBottom:'-170px'}} src={logo2} alt="Logo" />
+              <img id="i2" style={{ width: "150px", marginTop:'-140px',marginBottom:'-170px'}} src={logo2} alt="Logo" />
               
             </div>
           </div>
@@ -149,7 +158,7 @@ function CarouselPage() {
       <Carousel fade={true}>
         <Carousel.Item>
           <img
-            style={{ height: "80vh", objectFit: "cover" }}
+            style={{ height: "85vh", objectFit: "cover" }}
             className="d-block w-100"
             src={img1}
             alt="First slide"
@@ -161,25 +170,25 @@ function CarouselPage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "80vh", objectFit: "cover" }}
+            style={{ height: "85vh", objectFit: "cover" }}
             className="d-block w-100"
             src={img2}
             alt="First slide"
           />
           <Carousel.Caption className="text-center">
-            <h3>First slide label</h3>
+            <h3>Second slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "80vh", objectFit: "cover" }}
+            style={{ height: "85vh", objectFit: "cover" }}
             className="d-block w-100"
             src={img3}
             alt="First slide"
           />
           <Carousel.Caption className="text-center">
-            <h3>First slide label</h3>
+            <h3>Third slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>

@@ -5,7 +5,7 @@ import './Aboutus.css';
 const AboutUs = () => (
     <div className='about section__padding'>
         <div className='container'>
-            <div className='headAbout' style={{marginTop:'40px', textAlign:'center'}}>
+            <div className='headAbout' style={{marginTop:'0px', textAlign:'center'}}>
            About us
             </div>
             <div className='deatailsAbout' style={{textAlign:'justify'}}>Trading companies are businesses working with
