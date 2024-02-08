@@ -4,13 +4,24 @@
     height: 300px;
     object-fit: cover;
 }
+#igmdiv{
+   margin-right: 70px;
+   margin-left: 70px;
+}
 
+#pa{
+    font-weight: bold;
+}
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     #imgcat{
         height: 230px;
        width: 230px;
        
     }
+    #igmdiv{
+        margin-right:0px;
+        margin-left: 0px;
+     }
   }
  

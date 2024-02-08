@@ -125,14 +125,15 @@
 
 #a1 a{
   color: #0de2f1;
-  width: 140px;
+  width: 260px;
   margin-left: 5px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #a1 a:hover{
   
   color: orange;
-  width: 150px;
+  width: 260px;
 }
 
 .dropdown-menu a {

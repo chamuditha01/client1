@@ -108,38 +108,32 @@ function CarouselPage() {
 
                   Categories <SlArrowDown  />
                 </a>
-                
- 
-
                 <div
-                    style={{ backgroundColor: 'black', borderRadius: '0px' }}
+                    style={{ backgroundColor: 'black', borderRadius: '0px', width:'300px' }}
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
                     <a className="" href="/category1">
-                      Clothes
+                    Electrical & Electronic  
                     </a>
                     <a className="" href="/category2">
-                      Electronics
+                    Construction,Engineering hardware
                     </a>
                     <a className="" href="/category2">
-                      Household
+                    Spare Parts & Others
                     </a>
                     <a className="" href="/category2">
-                      Electric
+                    Engineering product and accessories
                     </a>
                     <a className="" href="/category2">
-                      Tools
+                    House Keeping, Laundry & Kitchen Departments
                     </a>
                     <a className="" href="/category2">
-                      Electronics
+                    Marine, Cold room, Swimming Pool 
                     </a>
                     <a className="" href="/category2">
-                      Dresses
-                    </a>
-                    <a className="" href="/category2">
-                      Electronics
+                    Tools and Maintenance related
                     </a>
                   </div>
 
@@ -159,20 +153,20 @@ function CarouselPage() {
       <Carousel fade={true}>
         <Carousel.Item>
           <img
-            style={{ height: "85vh", objectFit: "cover" }}
+            style={{ height: "100vh", objectFit: "cover" }}
             className="d-block w-100"
             src={img1}
             alt="First slide"
           />
           <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center"
 >
-            <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
+            <h3  style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "85vh", objectFit: "cover" }}
+            style={{ height: "100vh", objectFit: "cover" }}
             className="d-block w-100"
             src={img2}
             alt="First slide"
@@ -184,7 +178,7 @@ function CarouselPage() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ height: "85vh", objectFit: "cover" }}
+            style={{ height: "100vh", objectFit: "cover" }}
             className="d-block w-100"
             src={img3}
             alt="First slide"
