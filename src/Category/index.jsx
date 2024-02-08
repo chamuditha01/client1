@@ -9,6 +9,8 @@ import img6 from './blue-sunglasses-reflect-tropical-summer-fun-elegance-generat
 import img7 from './photo-top-view-huge-set-collection-working-hand-power-tools-many-wooden-isolated-black-surface_185126-50.avif';
 import img8 from './tools-instruments-belt-black-background_182252-6921.avif'
 import './index.css';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 const ImageGrid = () => {
   const images = [
@@ -30,26 +32,37 @@ const ImageGrid = () => {
   return (
     <div>
     <div id="igmdiv" >
+    <TrackVisibility partialVisibility>
+              {({ isVisible }) =>
+              <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>
       {images.length > 0 && (
+        
         <Row xs={1} sm={2} md={3} lg={4} className="g-4">
           {images.map((image, index) => (
             <Col key={image.id}>
-              <div className={`text-center ${isLastRow(index) ? 'mx-auto' : ''}`}>
-                <img
-                  src={image.src}
-                  className="img-thumbnail rounded-circle"
-                  id="imgcat"
-                />
+              <a style={{textDecoration:'none', color:'black', fontFamily:'cursive'}} href="#">
+              <div  className={`text-center ${isLastRow(index) ? 'mx-auto' : ''}`}>
+              <div className="image-container">
+      <img
+        src={image.src}
+        className="img-thumbnail rounded-circle"
+        id="imgcat"
+        alt="Image"
+      />
+      <div className="overlay"></div>
+    </div>
                 <p id="pa" className="mt-2">
                   {image.title}
                 </p>
               </div>
+              </a>
             </Col>
           ))}
         </Row>
-      )}
+        
+      )}</div>}
+    </TrackVisibility>
     </div>
-    
   </div>
   );
 };
