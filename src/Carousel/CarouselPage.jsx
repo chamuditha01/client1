@@ -11,7 +11,7 @@ import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from './logo5.png'
 import { Color } from "three";
-
+import { Link } from 'react-router-dom';
 
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
@@ -80,7 +80,7 @@ function CarouselPage() {
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <NavItems NavItem name={"Home"} path={"/"} />
-                <NavItems
+               <NavItems
                   NavItem
                   
                   name={"About Us"}
@@ -114,25 +114,25 @@ function CarouselPage() {
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a className="" href="/category1">
+                    <a className="" href="/Electrical">
                     Electrical & Electronic  
                     </a>
-                    <a className="" href="/category2">
+                    <a className="" href="/Construction">
                     Construction,Engineering hardware
                     </a>
-                    <a className="" href="/category2">
+                    <a className="" href="/SparePart">
                     Spare Parts & Others
                     </a>
-                    <a className="" href="/category2">
+                    <a className="" href="/Engineeringproduct">
                     Engineering product and accessories
                     </a>
-                    <a className="" href="/category2">
+                    <a className="" href="/HouseKeeping">
                     House Keeping, Laundry & Kitchen Departments
                     </a>
-                    <a className="" href="/category2">
+                    <a className="" href="/Marine">
                     Marine, Cold room, Swimming Pool 
                     </a>
-                    <a className="" href="/category2">
+                    <a className="" href="/Tools">
                     Tools and Maintenance related
                     </a>
                   </div>
