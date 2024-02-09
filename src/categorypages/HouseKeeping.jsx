@@ -1,13 +1,10 @@
 import React from 'react';
+import Navbar1 from '../Navbar';
 
 const HouseKeeping = () => {
   return (
     <div>
-      <h1>House Keeping, Laundry & Kitchen Departments
-
-
-
-</h1>
+      <Navbar1/>
       {/* Add your content for electrical items here */}
     </div>
   );

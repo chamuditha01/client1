@@ -8,6 +8,8 @@ import HouseKeeping from './categorypages/HouseKeeping';
 import Marine from './categorypages/Marine';
 import SparePart from './categorypages/SparePart';
 import Tools from './categorypages/Tools';
+import Others from './categorypages/Others';
+
 
 function App() {
   return (
@@ -22,7 +24,14 @@ function App() {
           <Route path="/Marine" element={<Marine />} />
           <Route path="/SparePart" element={<SparePart />} />
           <Route path="/Tools" element={<Tools />} />
-        
+          <Route path='/page1' element={<Electrical/>}/>
+          <Route path='/page2' element={<Construction/>}/>
+          <Route path='/page3' element={<SparePart/>}/>
+          <Route path='/page4' element={<Engineeringproduct/>}/>
+          <Route path='/page5' element={<HouseKeeping/>}/>
+          <Route path='/page6' element={<Marine/>}/>
+          <Route path='/page7' element={<Tools/>}/>
+          <Route path='/page8' element={<Others/>}/>
         </Routes>
       </div>
     </BrowserRouter>

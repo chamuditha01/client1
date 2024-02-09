@@ -1,10 +1,10 @@
 import React from 'react';
+import Navbar1 from '../Navbar';
 
 const Construction = () => {
   return (
     <div>
-      <h1>Construction,Engineering hardware
-</h1>
+      <Navbar1/>
       {/* Add your content for electrical items here */}
     </div>
   );

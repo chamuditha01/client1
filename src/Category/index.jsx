@@ -14,14 +14,14 @@ import TrackVisibility from 'react-on-screen';
 
 const ImageGrid = () => {
   const images = [
-    { id: 1, src: img1, title: 'Electrical & Electronic' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others' },
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
-    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen Departments'},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 2, src: img8, title: 'Others' }
+    { id: 1, src: img1, title: 'Electrical & Electronic',href:'page1' },
+    { id: 2, src: img2, title: 'Construction,Engineering hardware',href:'page2' },
+    { id: 3, src: img3, title: 'Spare Parts & Others',href:'page3' },
+    { id: 1, src: img4, title: 'Engineering product and accessories' ,href:'page4'},
+    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen Departments',href:'page5'},
+    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool',href:'page6' },
+    { id: 3, src: img7, title: 'Tools and Maintenance related',href:'page7' },
+    { id: 2, src: img8, title: 'Others' ,href:'page8'}
   ];
   
 
@@ -40,7 +40,7 @@ const ImageGrid = () => {
         <Row xs={1} sm={2} md={3} lg={4} className="g-4">
           {images.map((image, index) => (
             <Col key={image.id}>
-              <a style={{textDecoration:'none', color:'black', fontFamily:'cursive'}} href="#">
+              <a style={{textDecoration:'none', color:'black', fontFamily:'cursive'}} href={image.href}>
               <div  className={`text-center ${isLastRow(index) ? 'mx-auto' : ''}`}>
               <div className="image-container">
       <img

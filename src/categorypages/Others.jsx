@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar1 from '../Navbar';
 
-const Marine = () => {
+const Others = () => {
   return (
     <div>
       <Navbar1/>
@@ -10,4 +10,4 @@ const Marine = () => {
   );
 };
 
-export default Marine;
+export default Others;

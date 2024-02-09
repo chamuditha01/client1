@@ -1,14 +1,20 @@
 // Navbar.jsx
 
-import React, { useState, useEffect } from 'react';
-import NavItems from '../Navitems';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles.css';
-import logo from './logo.jpg';
-import per from './login.png';
+import React, { useEffect, useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import "./CarouselPage.css";
+import logo1 from "./logo1.png";
+import { SlArrowDown } from "react-icons/sl";
+import NavItems from "../Navitems";
+import logo2 from './logo5.png'
 
-function Navbar() {
+
+function Navbar1() {
   const [scrolling, setScrolling] = useState(false);
+
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,69 +25,133 @@ function Navbar() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
+  
+
+  const navbarBackground = scrolling
+    ? "white"
+    : "linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))";
+
+
+  
+
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg custom-navbar ${scrolling ? 'scrolling' : ''}`}>
-        <div className="container-fluid">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+      <Navbar
+        style={{ background: navbarBackground }}
+        expand="lg"
+        variant="dark"
+        fixed="top"
+      >
+        <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
+        <a className="navbar-brand" href="/">
+                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}} src={logo1} alt="Logo" />
+                </a>
+          <div className="container-fluid">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              style={{
+                backgroundColor: "#0de2f1 ",
+                marginLeft: "auto",
+                borderRadius: "5px",
+                marginTop:'-40px',
+                width: "40px",
+                padding: "0px",
+                borderStyle: "none",
+              }}
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <NavItems NavItem id={"nav1"} name={'Home'} path={'/'} />
-              <NavItems NavItem id={"nav2"} name={'About Us'} path={'/service'} />
-              <li className="nav-item dropdown">
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <NavItems NavItem name={"Home"} path={"/"} />
+               <NavItems
+                  NavItem
+                  
+                  name={"About Us"}
+                  path={"/About Us"}
+                />
+                
+                <NavItems
+                  NavItem
+                  
+                  name={"Contact Us"}
+                  path={"/Contact Us"}
+                />
+            
+                <li className="nav-item dropdown ">
                 <a
-                  className="nav-link dropdown-toggle"
+                
+                  className="nav-link "
                   href="#"
-                  id="navbarDropdown"
+                  id="u1"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Categories
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/category1">
-                    Cloths
-                  </a>
-                  <a className="dropdown-item" href="/category2">
-                    Electronics
-                  </a>
-                  {/* Add more categories as needed */}
-                </div>
-              </li>
-            </ul>
 
-            <ul className="navbar-nav mb-2 mb-lg-0 right">
-              <NavItems NavItem id={"nav"} name={'Contact Us'} path={'/login'} />
-              <a className="top" href="/login">
-                <img id="per" src={per} alt="Login" />
-              </a>
-            </ul>
+                  Categories <SlArrowDown  />
+                </a>
+                <div
+                    style={{ backgroundColor: 'black', borderRadius: '0px', width:'300px' }}
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                    id="a1"
+                  >
+                    <a className="" href="/Electrical">
+                    Electrical & Electronic  
+                    </a>
+                    <a className="" href="/Construction">
+                    Construction,Engineering hardware
+                    </a>
+                    <a className="" href="/SparePart">
+                    Spare Parts & Others
+                    </a>
+                    <a className="" href="/Engineeringproduct">
+                    Engineering product and accessories
+                    </a>
+                    <a className="" href="/HouseKeeping">
+                    House Keeping, Laundry & Kitchen Departments
+                    </a>
+                    <a className="" href="/Marine">
+                    Marine, Cold room, Swimming Pool 
+                    </a>
+                    <a className="" href="/Tools">
+                    Tools and Maintenance related
+                    </a>
+                  </div>
+
+                </li>
+                
+                <a className="navbar-brand" href="/">
+                  <img id="i1" style={{ width: "35px", marginTop:'-70px',marginBottom:'-70px'}} src={logo1} alt="Logo" />
+                </a>
+              </ul>
+              <img id="i2" style={{ width: "150px", marginTop:'-140px',marginBottom:'-170px'}} src={logo2} alt="Logo" />
+              
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </Navbar>
     </div>
   );
 }
 
-export default Navbar;
+export default Navbar1;

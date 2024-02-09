@@ -1,9 +1,10 @@
 import React from 'react';
+import Navbar1 from '../Navbar';
 
 const Electrical = () => {
   return (
     <div>
-      <h1>Electrical Items</h1>
+      <Navbar1/>
       {/* Add your content for electrical items here */}
     </div>
   );

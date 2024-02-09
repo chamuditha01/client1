@@ -1,0 +1,196 @@
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+}
+
+#u1:hover{
+  color: orange;
+}
+#n1{
+    width: 200%;
+    margin: 0px;
+}
+
+
+  .navbar-nav{
+    margin-left: 50px;
+  }
+  .right{
+    margin-right: 50px;
+    object-fit: cover; 
+  }
+  .top{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 40px; 
+    height: auto;
+  }
+  
+  #per{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: -7px;
+    margin-left: -5px;
+  }
+  
+  
+  .custom-navbar .navbar-nav .nav-link {
+    font-size: 18px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  #u1{
+    margin-left: 30px;
+    margin-top: 2px;
+    margin-bottom: -30px;
+    font-size: large;
+    font-weight: 400;
+    color: #0de2f1;
+  }
+  
+  .form-control {
+    font-weight: bold; 
+  }
+  
+  .form-control {
+    height: 30px; 
+  }
+  .custom-navbar {
+    
+  }
+  
+  
+  
+  .dropdown-menu .dropdown-item {
+    margin-right: 10px;
+    font-size:medium 
+  }
+  
+  .navbar-nav .nav-link {
+    margin-right: 20px; 
+  }
+  
+  
+  .dropdown-menu {
+    border: none;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .dropdown-item {
+    font-size:smaller;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    border-radius: 10px; 
+  }
+  .navbar-toggler{color: rgb(0, 136, 255);
+   
+  background-color: rgb(0, 0, 0);}
+  
+  
+  .custom-navbar {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .navbar-nav > li {
+    margin-right: 100px; 
+  }
+  
+  #nav1{
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+  }
+  
+/* styles.css */
+
+.custom-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s;
+  height: 60px;
+}
+
+.custom-navbar.scrolling {
+  background: linear-gradient(to right, rgba(252, 57, 57, 0.5), rgba(255, 255, 255, 0.5));
+  transform: 0.3s;
+  /* Adjust the alpha values to control transparency and the color stops for the gradient */
+}
+
+#a1 a{
+  color: #0de2f1;
+  width: 260px;
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#a1 a:hover{
+  
+  color: orange;
+  width: 260px;
+}
+
+.dropdown-menu a {
+  border-bottom: 1px solid #fff; /* Adjust color and thickness as needed */
+  padding-bottom: 5px; /* Adjust spacing as needed */
+  position: relative;
+}
+
+/* Custom styles to center text in Carousel.Caption */
+/* Custom styles to vertically center text in Carousel.Caption */
+.carousel-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align to the left */
+  justify-content: flex-start; /* Align to the top */
+  margin-bottom: 400px;
+  margin-right: 500px;
+}
+
+
+
+
+/* Remove border on the last item */
+.dropdown-menu a:last-child {
+  border-bottom: none;
+}
+
+
+.navbar-brand img {
+  
+  width: 130px;
+  margin-left: 130px;
+}
+
+@media (min-width: 992px) {
+  #i3{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-brand img {
+  
+    width: 150px;
+    margin-left: 30px;
+  }
+  #i2{
+    margin-left: 25px;
+    margin-top: -10px;
+  }
+  #u1{
+    margin-bottom: 1px;
+  }
+  #i1{
+    display: none;
+  }
+  .custom-navbar{
+    height: auto;
+  }
+}
+

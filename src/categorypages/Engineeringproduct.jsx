@@ -1,12 +1,10 @@
 import React from 'react';
+import Navbar1 from '../Navbar';
 
 const Engineeringproduct = () => {
   return (
     <div>
-      <h1>Engineering product and accessories
-
-
-</h1>
+      <Navbar1/>
       {/* Add your content for electrical items here */}
     </div>
   );
