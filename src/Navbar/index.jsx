@@ -119,13 +119,13 @@ function Navbar1() {
                     Electrical & Electronic  
                     </a>
                     <a className="" href="/page2">
-                    Construction,Engineering hardware
+                    Construction, Engineering hardware
                     </a>
                     <a className="" href="/page3">
                     Spare Parts & Others
                     </a>
                     <a className="" href="/page4">
-                    Engineering product and accessories
+                    Engineering products and accessories
                     </a>
                     <a className="" href="/page5">
                     House Keeping, Laundry & Kitchen Departments

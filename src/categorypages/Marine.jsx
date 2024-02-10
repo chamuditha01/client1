@@ -37,7 +37,7 @@ const Marine = () => {
       <Navbar1/>
       <div>
     <div id="igmdiv" >
-        <h1 style={{marginBottom:'50px', textAlign:'center'}}>Electrical And Electronic</h1>
+        <h1 style={{marginBottom:'50px', textAlign:'center'}}>Marine, Cold Room And Swimming Pool</h1>
     <TrackVisibility partialVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>
