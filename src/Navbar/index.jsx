@@ -85,7 +85,7 @@ function Navbar1() {
                   NavItem
                   
                   name={"About Us"}
-                  path={"/About Us"}
+                  path={"/aboutus"}
                 />
                 
                 <NavItems

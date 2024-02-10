@@ -84,7 +84,7 @@ function CarouselPage() {
                   NavItem
                   
                   name={"About Us"}
-                  path={"/About Us"}
+                  path={"/aboutus"}
                 />
                 
                 <NavItems

@@ -9,6 +9,7 @@ import Marine from './categorypages/Marine';
 import SparePart from './categorypages/SparePart';
 import Tools from './categorypages/Tools';
 import Others from './categorypages/Others';
+import AboutUsPage from './AboutUsPage';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/page6' element={<Marine/>}/>
           <Route path='/page7' element={<Tools/>}/>
           <Route path='/page8' element={<Others/>}/>
+          <Route path='/aboutus' element={<AboutUsPage/>}/>
         </Routes>
       </div>
     </BrowserRouter>
