@@ -8,7 +8,7 @@ const AboutUs = () => (
             <div className='headAbout' style={{marginTop:'0px', textAlign:'center'}}>
            About us
             </div>
-            <div className='deatailsAbout' style={{textAlign:'justify'}}>Trading companies are businesses working with
+            <div className='deatailsAbout' style={{textAlign:'center'}}>Trading companies are businesses working with
 Different kinds of products which are sold for 
 Consumer, business. We will provide any product
 which is related to Resort maintenance.We 

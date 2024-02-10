@@ -114,25 +114,25 @@ function CarouselPage() {
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a className="" href="/Electrical">
+                    <a className="" href="/page1">
                     Electrical & Electronic  
                     </a>
-                    <a className="" href="/Construction">
+                    <a className="" href="/page2">
                     Construction,Engineering hardware
                     </a>
-                    <a className="" href="/SparePart">
+                    <a className="" href="/page3">
                     Spare Parts & Others
                     </a>
-                    <a className="" href="/Engineeringproduct">
+                    <a className="" href="/page4">
                     Engineering product and accessories
                     </a>
-                    <a className="" href="/HouseKeeping">
+                    <a className="" href="/page5">
                     House Keeping, Laundry & Kitchen Departments
                     </a>
-                    <a className="" href="/Marine">
+                    <a className="" href="/page6">
                     Marine, Cold room, Swimming Pool 
                     </a>
-                    <a className="" href="/Tools">
+                    <a className="" href="/page7">
                     Tools and Maintenance related
                     </a>
                   </div>
@@ -158,10 +158,9 @@ function CarouselPage() {
             src={img1}
             alt="First slide"
           />
-          <Carousel.Caption className="d-flex flex-column align-items-center justify-content-center"
->
+         <Carousel.Caption className="text-center">
             <h3  style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p id="pr">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -173,7 +172,7 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
             <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p id="pr">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -185,10 +184,9 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
             <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p id="pr">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* Add other Carousel.Items as needed */}
       </Carousel>
       
     </div>

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import "./CarouselPage.css";
+
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
@@ -115,27 +115,27 @@ function Navbar1() {
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a className="" href="/Electrical">
+                    <a className="" href="/page1">
                     Electrical & Electronic  
                     </a>
-                    <a className="" href="/Construction">
+                    <a className="" href="/page2">
                     Construction,Engineering hardware
                     </a>
-                    <a className="" href="/SparePart">
+                    <a className="" href="/page3">
                     Spare Parts & Others
                     </a>
-                    <a className="" href="/Engineeringproduct">
+                    <a className="" href="/page4">
                     Engineering product and accessories
                     </a>
-                    <a className="" href="/HouseKeeping">
+                    <a className="" href="/page5">
                     House Keeping, Laundry & Kitchen Departments
                     </a>
-                    <a className="" href="/Marine">
+                    <a className="" href="/page6">
                     Marine, Cold room, Swimming Pool 
                     </a>
-                    <a className="" href="/Tools">
+                    <a className="" href="/page7">
                     Tools and Maintenance related
-                    </a>
+                    </a> 
                   </div>
 
                 </li>

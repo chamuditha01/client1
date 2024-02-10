@@ -15,15 +15,8 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Electrical" element={<Electrical />} />
-          <Route path="/Construction" element={<Construction />} />
-          <Route path="/Engineeringproduct" element={<Engineeringproduct />} />
-          <Route path="/HouseKeeping" element={<HouseKeeping />} />
-          <Route path="/Marine" element={<Marine />} />
-          <Route path="/SparePart" element={<SparePart />} />
-          <Route path="/Tools" element={<Tools />} />
           <Route path='/page1' element={<Electrical/>}/>
           <Route path='/page2' element={<Construction/>}/>
           <Route path='/page3' element={<SparePart/>}/>

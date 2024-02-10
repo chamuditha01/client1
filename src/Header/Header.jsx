@@ -18,9 +18,7 @@ const Header = () => {
     >
       <div className="container2">
         <CarouselPage/><AboutUs/><ImageGrid/>
-        <div className="header__content text__center text__light flex flex__center">
-      
-        </div>
+        
       </div>
     </div>
   );

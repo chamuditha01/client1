@@ -1,5 +1,5 @@
 .carousel-indicators [data-bs-target] {
-    border-radius: 100%;
+    border-radius: 100px;
     width: 10px;
     height: 10px;
 }
@@ -113,13 +113,14 @@
 
 .custom-navbar {
   background-color: transparent;
-  transition: background-color 0.3s;
+  transition: background-color 0.4s;
   height: 60px;
 }
 
 .custom-navbar.scrolling {
   background: linear-gradient(to right, rgba(252, 57, 57, 0.5), rgba(255, 255, 255, 0.5));
-  transform: 0.3s;
+  transition: 0.4s;
+  position: fixedm;
   /* Adjust the alpha values to control transparency and the color stops for the gradient */
 }
 
