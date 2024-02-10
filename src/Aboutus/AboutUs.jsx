@@ -6,7 +6,8 @@ const AboutUs = () => (
     <div className='about section__padding'>
         <div className='container'>
             <div className='headAbout' style={{marginTop:'0px', textAlign:'center'}}>
-           About us
+                <h1> About us</h1>
+          
             </div>
             <div className='deatailsAbout' style={{textAlign:'center'}}>Trading companies are businesses working with
 Different kinds of products which are sold for 
