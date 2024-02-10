@@ -10,13 +10,14 @@ import img5 from './full-length-woman-standing-kitchen_1048944-13021513.jpg';
 import img6 from './blue-sunglasses-reflect-tropical-summer-fun-elegance-generated-by-ai_188544-10320.avif';
 import img7 from './photo-top-view-huge-set-collection-working-hand-power-tools-many-wooden-isolated-black-surface_185126-50.avif';
 import img8 from './tools-instruments-belt-black-background_182252-6921.avif'
+import RubberMatt from "./Rubber Matt 16'' x 24''.jpg"
 import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 
   const images = [
-    { id: 1, src: img1, title: 'Electrical & Electronic' },
+    { id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
     { id: 2, src: img2, title: 'Construction,Engineering hardware' },
     { id: 3, src: img3, title: 'Spare Parts & Others'},
     { id: 1, src: img4, title: 'Engineering product and accessories' },

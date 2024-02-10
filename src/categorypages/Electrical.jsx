@@ -12,14 +12,16 @@ import img7 from './photo-top-view-huge-set-collection-working-hand-power-tools-
 import img8 from './tools-instruments-belt-black-background_182252-6921.avif'
 import './index.css';
 import 'animate.css';
+import Extension from "./Orange Extension Cord - 5Meter.jpg";
+import Resistant from "./10mm Heat Resistant Fiberglass Sleeve.jpg";
 import TrackVisibility from 'react-on-screen';
-
-
+import Heat from "./8mm Heat Shrink Sleeve.jpg";
+import Adaptor from "./AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A.jpg";
   const images = [
-    { id: 1, src: img1, title: 'Electrical & Electronic' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
+    { id: 1, src: Extension, title: 'Orange Extension Cord - 5Meter    ' },
+    { id: 2, src: Resistant, title: '10mm Heat Resistant Fiberglass Sleeve    ' },
+    { id: 3, src: Heat, title: '8mm Heat Shrink Sleeve    '},
+    { id: 1, src: Adaptor, title: 'AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A    ' },
     { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
     { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
     { id: 3, src: img7, title: 'Tools and Maintenance related' },

@@ -2,8 +2,8 @@
 #imgcat{
     width: 280px;
     height: 280px;
-    object-fit: cover;
-    border-radius: 0px;
+    object-fit: cover; border-radius: 10px;
+   
 }
 #igmdiv{
    margin-right: 70px;
@@ -25,7 +25,7 @@
     display: inline-block;
     background-color: orange;
     transition: 0.4s;
-    margin-bottom: 20px;
+    margin-bottom: 20px; border-radius: 10px;
     
   }
 

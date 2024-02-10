@@ -11,19 +11,28 @@ import img6 from './blue-sunglasses-reflect-tropical-summer-fun-elegance-generat
 import img7 from './photo-top-view-huge-set-collection-working-hand-power-tools-many-wooden-isolated-black-surface_185126-50.avif';
 import img8 from './tools-instruments-belt-black-background_182252-6921.avif'
 import './index.css';
+import Laminating from "./A3 Laminating Machine.jpg";
+import Puncher from "./3 Hole Puncher.jpg";
+import SKF from "./SKF LGFP 2 Food Grade Grease 1kg.jpg";
+import Glass from "./Glass Paper Red.jpg";
+import CHIRSTMAS from "./CHIRSTMAS GARLAND (6 FEET).jpg";
+import WIRELESS from "./WIRELESS EARBUDS.jpg";
+import Speakers from "./Speakers 33mm.jpg";
+import Belt from "./V Belt.jpg"
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 
   const images = [
-    { id: 1, src: img1, title: 'Electrical & Electronic' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
-    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 2, src: img8, title: 'Others' }
+    { id: 1, src: Puncher, title: '3 Hole Puncher    ' },
+    { id: 2, src: Laminating, title: 'A3 Laminating Machine    ' },
+    { id: 3, src: SKF, title: 'SKF LGFP 2 Food Grade Grease 1kg    '},
+    { id: 1, src: Glass, title: 'Glass Paper Red    ' },
+    { id: 2, src: CHIRSTMAS, title: 'CHIRSTMAS GARLAND (6 FEET)    '},
+    { id: 1, src: WIRELESS, title: 'WIRELESS EARBUDS    ' },
+    { id: 3, src: Speakers, title: 'Speakers 33mm    ' },
+    { id: 2, src: Belt, title: 'V Belt    ' }
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
