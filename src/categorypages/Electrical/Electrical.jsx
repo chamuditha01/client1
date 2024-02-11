@@ -1,22 +1,19 @@
-import Navbar1 from '../Navbar';
-import Footer from '../Footer/Footer';
+import Navbar1 from '../../Navbar';
+import Footer from '../../Footer/Footer';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import img1 from './blue-sunglasses-reflect-tropical-summer-fun-elegance-generated-by-ai_188544-10320.avif';
-import img2 from './working-tools-things-worker-builder-electrician-top-view_169016-24610.avif';
-import img4 from './construction-materials-concept-safety-construction-tools-hand-tools-power-tools_1048944-3433536.jpg';
-import img3 from './composition-different-car-accessories_23-2149030390.jpg';
 import img5 from './full-length-woman-standing-kitchen_1048944-13021513.jpg';
 import img6 from './blue-sunglasses-reflect-tropical-summer-fun-elegance-generated-by-ai_188544-10320.avif';
 import img7 from './photo-top-view-huge-set-collection-working-hand-power-tools-many-wooden-isolated-black-surface_185126-50.avif';
 import img8 from './tools-instruments-belt-black-background_182252-6921.avif'
-import './index.css';
+import 'C:/Users/ASUS/Desktop/Client 1/client/src/categorypages/index.css';
 import 'animate.css';
 import Extension from "./Orange Extension Cord - 5Meter.jpg";
 import Resistant from "./10mm Heat Resistant Fiberglass Sleeve.jpg";
 import TrackVisibility from 'react-on-screen';
 import Heat from "./8mm Heat Shrink Sleeve.jpg";
 import Adaptor from "./AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A.jpg";
+
   const images = [
     { id: 1, src: Extension, title: 'Orange Extension Cord - 5Meter    ' },
     { id: 2, src: Resistant, title: '10mm Heat Resistant Fiberglass Sleeve    ' },

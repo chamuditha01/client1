@@ -1,15 +1,16 @@
 import './App.css';
 import Home from './Home';
-import Construction from './categorypages/Construction';
-import Electrical from './categorypages/Electrical';
+import Construction from './categorypages/Contruction/Construction';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
-import Engineeringproduct from './categorypages/Engineeringproduct';
-import HouseKeeping from './categorypages/HouseKeeping';
-import Marine from './categorypages/Marine';
-import SparePart from './categorypages/SparePart';
-import Tools from './categorypages/Tools';
-import Others from './categorypages/Others';
+import Engineeringproduct from './categorypages/EngineeringProduct/Engineeringproduct';
+import HouseKeeping from './categorypages/HouseKeeping/HouseKeeping';
+import Marine from './categorypages/Marine/Marine';
+import SparePart from './categorypages/SpareParts/SparePart';
+import Tools from './categorypages/Tools/Tools';
+import Others from './categorypages/Others/Others';
 import AboutUsPage from './AboutUsPage';
+import Electrical from './categorypages/Electrical/Electrical';
 
 
 function App() {
