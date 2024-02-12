@@ -3,20 +3,21 @@ import Footer from '../../Footer/Footer';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import RubberMatt from "./Rubber Matt 16'' x 24''.jpg"
-import 'C:/Users/ASUS/Desktop/Client 1/client/src/categorypages/index.css';
+import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import img2 from './this-is-protection-knot-with-metal-carabiner-silver-colored-device-active-sports_146671-16443.avif'
 
 
   const images = [
-    /*{ id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
-    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
+    { id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
+    { id: 2, src: img2, title: '6feet Luggage Rope' },
+    /*{ id: 3, src: img3, title: 'Spare Parts & Others'},
+    { id: 4, src: img4, title: 'Engineering product and accessories' },
+    { id: 1, src: img5, title: 'House Keeping, Laundry & Kitchen '},
+    { id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },
     { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 2, src: img8, title: 'Others' }*/
+    { id: 4, src: img8, title: 'Others' }*/
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

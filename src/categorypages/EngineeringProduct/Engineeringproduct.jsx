@@ -2,7 +2,7 @@ import Navbar1 from '../../Navbar';
 import Footer from '../../Footer/Footer';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import 'C:/Users/ASUS/Desktop/Client 1/client/src/categorypages/index.css';
+import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 

@@ -2,20 +2,21 @@ import Navbar1 from '../../Navbar';
 import Footer from '../../Footer/Footer';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import 'C:/Users/ASUS/Desktop/Client 1/client/src/categorypages/index.css';
+import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import img1 from './front-view-worker-using-drill_23-2149916311.avif'
 
 
   const images = [
-    /*{ id: 1, src: img1, title: 'Electrical & Electronic' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
+    { id: 1, src: img1, title: 'Impact driver' },
+    /*{ id: 2, src: img2, title: 'Construction,Engineering hardware' },
     { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
-    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
+    { id: 4, src: img4, title: 'Engineering product and accessories' },
+    { id: 1, src: img5, title: 'House Keeping, Laundry & Kitchen '},
+    { id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },
     { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 2, src: img8, title: 'Others' }*/
+    { id: 4, src: img8, title: 'Others' }*/
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

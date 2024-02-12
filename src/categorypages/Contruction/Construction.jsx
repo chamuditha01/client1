@@ -2,16 +2,19 @@ import Navbar1 from '../../Navbar';
 import Footer from '../../Footer/Footer';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import 'C:/Users/ASUS/Desktop/Client 1/client/src/categorypages/index.css';
+import './index.css';
+import img1 from './beautiful-metal-retractable-mechanism-promotion-shelves-selective-focus_255755-1957.jpg';
+import img2 from './glass-sliding-door-glass-partition-with-handle_427957-213.jpg'
+import img3 from './tools-materials-sanitary-works_93675-131724.avif'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 
   const images = [
-    /*{ id: 1, src: img1, title: 'Electrical & Electronic' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
+    { id: 1, src: img1, title: 'Yoma Sliding Door Closer 110D' },
+    { id: 2, src: img2, title: 'Aluminum Sliding Door Lock - Light Brown' },
+    { id: 3, src: img3, title: 'Neumatic Nippel - Male 10mm 1/2 BSPT Threaded'},
+    /*{ id: 1, src: img4, title: 'Engineering product and accessories' },
     { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
     { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
     { id: 3, src: img7, title: 'Tools and Maintenance related' },

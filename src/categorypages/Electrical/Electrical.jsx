@@ -3,26 +3,32 @@ import Footer from '../../Footer/Footer';
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import img5 from './electric-circuit-breaker-isolated-white-background-electric-line-protection_113913-1574.jpg';
-import img6 from './blue-sunglasses-reflect-tropical-summer-fun-elegance-generated-by-ai_188544-10320.avif';
-import img7 from './photo-top-view-huge-set-collection-working-hand-power-tools-many-wooden-isolated-black-surface_185126-50.avif';
+import img6 from './stage-with-spotlights_1284-12774.avif';
+import img7 from './side-view-man-with-head-lantern_23-2148282340.avif';
 import img8 from './tools-instruments-belt-black-background_182252-6921.avif'
-import 'C:/Users/ASUS/Desktop/Client 1/client/src/categorypages/index.css';
+import './index.css';
 import 'animate.css';
 import Extension from "./Orange Extension Cord - 5Meter.jpg";
 import Resistant from "./10mm Heat Resistant Fiberglass Sleeve.jpg";
 import TrackVisibility from 'react-on-screen';
 import Heat from "./8mm Heat Shrink Sleeve.jpg";
 import Adaptor from "./AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A.jpg";
+import img9 from './colorful-plastic-polymer-granules-cable_93675-129282.avif'
+import img10 from './technology-electronic-computer-motherboard_1387-755.avif'
+import img11 from './lithium-battery-pack-dark-background_181705-181.jpg'
+
 
   const images = [
     { id: 1, src: Extension, title: 'Orange Extension Cord - 5Meter    ' },
     { id: 2, src: Resistant, title: '10mm Heat Resistant Fiberglass Sleeve    ' },
     { id: 3, src: Heat, title: '8mm Heat Shrink Sleeve    '},
-    { id: 1, src: Adaptor, title: 'AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A    ' },
-    { id: 2, src: img5, title: '110V Contactor LS mc18b'},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 2, src: img8, title: 'Others' }
+    { id: 4, src: Adaptor, title: 'AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A    ' },
+    { id: 1, src: img5, title: '110V Contactor LS mc18b'},
+    { id: 2, src: img6, title: 'Projector Lamp' },
+    { id: 3, src: img7, title: 'Head torch Heavy Duty' },
+    { id: 4, src: img9, title: '10mm 600/1000V Battery Wire (Meter)' },
+    { id: 1, src: img10, title: 'IGBT Transistor STGW30NC60KD' },
+    { id: 1, src: img11, title: 'IRechargable Battery 3.7V' },
   ];
   
 
