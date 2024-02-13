@@ -26,11 +26,13 @@ import img17   from "./SS Mat Hingus.jpg";
 import img18   from "./Gasket Sheet 3mm 5FT x 5FT.jpg"
 import img19   from "./SW 304 Shower Hinge.jpg"
 import img20   from "./SS Steam Hose Nipple 34 x 2feet.jpg"
-
-
-
-
-
+import img21  from "./BI Socket 1'' Inch.jpg"
+import img22   from "./SS Barrel Nipple - 38''.jpg"
+import img23   from "./Aluminum Sliding Door Locks.jpg"
+import img24   from "./Sliding door wheel.jpg"
+import img25  from "./Door Seal Beading - Brown.jpg"
+import img26   from "./Bi 34 Elbow.jpg"
+import img27  from "./Pegler Ball Cock Valve 12.jpg"
 
 
   const images = [
@@ -54,9 +56,13 @@ import img20   from "./SS Steam Hose Nipple 34 x 2feet.jpg"
     { id: 11, src: img18, title: 'Gasket Sheet 3mm 5FT x 5FT'},
     { id: 11, src: img19, title: 'SW 304 Shower Hinge'},
     { id: 11, src: img20, title: 'SS Steam Hose Nipple 3/4 x 2feet'},
-    { id: 11, src: img19, title: 'Fairy Light Strings'},
-    { id: 11, src: img19, title: 'Fairy Light Strings'},
-    
+    { id: 11, src: img21, title: 'BI Socket - Threaded 3/4'},
+    { id: 11, src: img22, title: 'SS Barrel Nipple - 3/8'},
+    { id: 11, src: img23, title: 'Sliding door locks'},
+    { id: 11, src: img24, title: 'Sliding door wheel'},
+    { id: 11, src: img25, title: 'Door Seal Beading - Brown'},
+    { id: 11, src: img26, title: 'Bi 3/4 Elbow'},
+    { id: 11, src: img27, title: 'Pegler Ball Cock Valve 1/2'},
     
     /*{ id: 1, src: img4, title: 'Engineering product and accessories' },
     { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
