@@ -6,12 +6,12 @@ import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import img1 from './front-view-worker-using-drill_23-2149916311.avif'
-
+import img2 from './NSK Bearring LP205.webp'
 
   const images = [
     { id: 1, src: img1, title: 'Impact driver' },
-    /*{ id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
+    { id: 2, src: img2, title: 'NSK Bearring LP205' },
+    /*{ id: 3, src: img3, title: 'Spare Parts & Others'},
     { id: 4, src: img4, title: 'Engineering product and accessories' },
     { id: 1, src: img5, title: 'House Keeping, Laundry & Kitchen '},
     { id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },

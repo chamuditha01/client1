@@ -7,17 +7,26 @@ import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import img2 from './this-is-protection-knot-with-metal-carabiner-silver-colored-device-active-sports_146671-16443.avif'
-
+import img3 from './Confectionery Funnel.jpg'
+import img4 from './Steel Wool.jpg'
+import img5 from './Chiminey Wicks.jpg'
+import img6 from './SS Confectionery Funnel with Stand.jpg'
+import img7 from './Oil Seal for Laundry Dryer 25 37 7 14 YXDJ.jpg'
+import img8 from './Tiki Torch Wick (Meter).jpg'
+import img9 from './2CM Oil Lamp Wick.jpg'
+import img10 from './Garbadge Bags XXXL.jpg'
 
   const images = [
     { id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
     { id: 2, src: img2, title: '6feet Luggage Rope' },
-    /*{ id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 4, src: img4, title: 'Engineering product and accessories' },
-    { id: 1, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 4, src: img8, title: 'Others' }*/
+    { id: 3, src: img3, title: 'Confectionery Funnel'},
+   { id: 4, src: img4, title: 'Steel Wool' },
+    { id: 1, src: img5, title: 'Chiminey Wicks'},
+     { id: 2, src: img6, title: 'SS Confectionery Funnel with Stand' },
+    { id: 3, src: img7, title: 'Oil Seal for Laundry Dryer 25 37 7 14 YXDJ' },
+    { id: 4, src: img8, title: 'Tiki Torch Wick (Meter)' },
+    { id: 1, src: img9, title: '2CM Oil Lamp Wick' },
+    { id: 2, src: img10, title: 'Garbadge Bags XXXL' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

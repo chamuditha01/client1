@@ -5,17 +5,42 @@ import { Row, Col, Container } from 'react-bootstrap';
 import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import img1 from './Pneumatic hose 4MM (Meter).jpg'
+import img2 from './Bearring 6206 2RS.jpg'
+import img3 from './Cold Room Locks.jpg'
+import img4 from './Voltage Regulator 15FR.jpg'
+import img5 from './Cummins 40 KVA Gen Set Alternator.jpg'
+import img6 from './Bain Marie Element L  2350mm.jpg'
+import img7 from './Panel Board Key 4 Way.jpg'
+import img8 from './Analog Wall Mountable Phone.jpg'
+import img9 from './Heat Compound 40g Tube.jpg'
+import img10 from './Universal Thermocouple 1200MM.jpg'
+import img11 from './Kelani Coil.jpg'
+import img12 from './Grech Pump CHJ4500.jpg'
+import img13 from './Dixel XR06CH.jpg'
+import img14 from './H3 Bulb.jpg'
+import img15 from './Schneider Contactor LC1K1210M7.jpg'
+import img16 from './Imhoff Cone Testing Kit.jpg'
+import img17 from './LPG Gas Regulator - HWA Young.jpg'
 
   const images = [
-    /*{ id: 1, src: img1, title: 'Electrical & Electronic' },
-    { id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 1, src: img4, title: 'Engineering product and accessories' },
-    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related' },
-    { id: 2, src: img8, title: 'Others' }*/
+    { id: 1, src: img1, title: 'Pneumatic hose 4MM (Meter)' },
+    { id: 2, src: img2, title: 'Bearring 6206 2RS' },
+    { id: 3, src: img3, title: 'Cold Room Locks'},
+    { id: 4, src: img4, title: 'Voltage Regulator 15FR' },
+    { id: 1, src: img5, title: 'Cummins 40 KVA Gen Set Alternator'},
+   { id: 2, src: img6, title: 'Bain Marie Element L : 2350mm' },
+   { id: 3, src: img7, title: 'Panel Board Key 4 Way' },
+    { id: 4, src: img8, title: 'Analog Wall Mountable Phone' },
+    { id: 1, src: img9, title: 'Heat Compound 40g Tube' },
+    { id: 2, src: img10, title: 'Universal Thermocouple 1200MM' },
+    { id: 3, src: img11, title: 'Kelani Coil' },
+    { id: 4, src: img12, title: 'Grech Pump CHJ4500' },
+    { id: 1, src: img13, title: 'Dixel XR06CH' },
+    { id: 2, src: img14, title: 'H3 Bulb' },
+    { id: 3, src: img15, title: 'Schneider Contactor LC1K1210M7' },
+    { id: 4, src: img16, title: 'Imhoff Cone Testing Kit' },
+    { id: 1, src: img17, title: 'LPG Gas Regulator - HWA Young' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

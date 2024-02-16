@@ -6,16 +6,21 @@ import './index.css';
 import img1 from './3d-rendering-open-door-with-key-living-room-house_207634-3441.avif'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import img2 from './Water Level Gauge (Glass).jpg'
+import img3 from './Waterproof Portable Oxygen Air pump.jpg'
+import img4 from './Boyu S 4000 Way Air Pump.jpg'
+import SocialIcons from '../../SocialIcons';
+import img5 from './Swimming Pool Cleaning Net.jpg'
+import img6 from './Swimming Pool Vaccum Head 18.jpg'
 
   const images = [
     { id: 1, src: img1, title: 'Electrical & Electronic' },
-    /*{ id: 2, src: img2, title: 'Construction,Engineering hardware' },
-    { id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 4, src: img4, title: 'Engineering product and accessories' },
-    { id: 1, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related' },
+    { id: 2, src: img2, title: 'Water Level Gauge (Glass)' },
+    { id: 3, src: img3, title: 'Waterproof Portable Oxygen Air pump'},
+   { id: 4, src: img4, title: 'Boyu S 4000 Way Air Pump' },
+     { id: 1, src: img5, title: 'Swimming Pool Cleaning Net'},
+   { id: 2, src: img6, title: 'Swimming Pool Vaccum Head 18' },
+     /*{ id: 3, src: img7, title: 'Tools and Maintenance related' },
     { id: 4, src: img8, title: 'Others' }*/
   ];
   const numberOfRows = Math.ceil(images.length / 4);
@@ -28,6 +33,7 @@ const Marine = () => {
   return (
     <div>
       <Navbar1/>
+      <SocialIcons/>
       <div>
     <div id="igmdiv" >
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>Marine, Cold Room And Swimming Pool</h1>

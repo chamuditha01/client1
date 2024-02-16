@@ -15,7 +15,20 @@ import img1 from './detail-professional-male-worker-using-mitre-saw-workshop_23-
 import img2 from './two-screwdriver-isolated-white-background_229712-44.jpg'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import img3 from './Heavy Duty Drill Chuck 18mm.jpg'
+import img4 from './CRC coat 70.jpg'
+import img5 from './Treadmill Oil Bottle.jpg'
+import img6 from './Star Trac belt 130-1695 (V280J).jpg'
+import img7 from './Washing Machine Universal PCB.jpg'
+import img8 from './HTP Connector 25mm.jpg'
+import img9 from './STC-9100 Defrost Temerature Controller.jpg'
+import img10 from './V Belt A1956LI.jpg'
+import img11 from './Washing Machine Water Seal Model.jpg'
+import img12 from './Motor Cycle Chain.jpg'
+import img13 from './Face & Body Paint 25ml 6Pcs Set.jpg'
+import img14 from './Face & Body Paint.jpg'
+import img15 from './V Belt SPA 1532.jpg'
+import img16 from './Battery 3.7V.jpg'
 
   const images = [
     { id: 1, src: Puncher, title: '3 Hole Puncher    ' },
@@ -27,7 +40,21 @@ import TrackVisibility from 'react-on-screen';
     { id: 3, src: Speakers, title: 'Speakers 33mm    ' },
     { id: 4, src: Belt, title: 'Makita Field Assy 5008MG' },
     { id: 1, src: img1, title: 'V Belt' },
-    { id: 2, src: img2, title: 'Magnetic Pickup Tool Hanbon' }
+    { id: 2, src: img2, title: 'Magnetic Pickup Tool Hanbon' },
+    { id: 3, src: img3, title: 'Heavy Duty Drill Chuck 18mm' },
+    { id: 4, src: img4, title: 'CRC coat 70' },
+    { id: 1, src: img5, title: 'Treadmill Oil Bottle' },
+    { id: 2, src: img6, title: 'Star Trac belt 130-1695 (V280J)' },
+    { id: 3, src: img7, title: 'Washing Machine Universal PCB' },
+    { id: 4, src: img8, title: 'HTP Connector 25mm' },
+    { id: 1, src: img9, title: 'STC-9100 Defrost Temerature Controller' },
+    { id: 2, src: img10, title: 'V Belt A1956LI' },
+    { id: 3, src: img11, title: 'Washing Machine Water Seal Model' },
+    { id: 4, src: img12, title: 'Motor Cycle Chain' },
+    { id: 1, src: img13, title: 'Face & Body Paint 25ml 6Pcs Set' },
+    { id: 2, src: img14, title: 'Face & Body Paint' },
+    { id: 3, src: img15, title: 'V Belt SPA 1532' },
+    { id: 4, src: img16, title: 'Battery 3.7V' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
