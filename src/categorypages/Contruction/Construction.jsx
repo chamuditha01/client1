@@ -35,6 +35,7 @@ import img27  from "./Pegler Ball Cock Valve 12.jpg"
 import SocialIcons from '../../SocialIcons';
 import img28 from './1 Solenoid UniD Valve - US-25 Brand - UniD.jpg'
 import img29 from './Steam Solenoid Valve.jpg'
+import img30 from './women-s-high-boots-white-background_236836-4362.jpg'
 
 
   const images = [
@@ -66,6 +67,7 @@ import img29 from './Steam Solenoid Valve.jpg'
     { id: 2, src: img27, title: 'Pegler Ball Cock Valve 1/2'},
     { id: 3, src: img28, title: '1" Solenoid UniD Valve - US-25 Brand - UniD'},
     { id: 4, src: img29, title: 'Steam Solenoid Valve 3/4'},
+    { id: 1, src: img30, title: 'Gumboot White Size 44'},
     
   ];
   const numberOfRows = Math.ceil(images.length / 4);

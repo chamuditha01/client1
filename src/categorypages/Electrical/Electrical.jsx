@@ -48,6 +48,8 @@ import img39 from './Rectifier IRF3710 P725P.jpg'
 import img40 from './Universal Power Supply Module.jpg'
 import img41 from './Toggle Switch with Cover.jpg'
 import img42 from './IC ADS 1243.jpg'
+import img43 from './service-maintenance-worker-repairing_23-2149176685.avif'
+import img44 from './close-up-perforated-fabric_23-2149894534.avif'
 
 
   const images = [
@@ -92,6 +94,8 @@ import img42 from './IC ADS 1243.jpg'
     { id: 3, src: img40, title: 'Universal Power Supply Module' },
     { id:4, src: img41, title: 'Toggle Switch with Covere' },
     { id:1, src: img42, title: 'IC ADS 1243' },
+    { id:2, src: img43, title: 'Led Driver Primary voltage - 190-265V 50/60Hz Secondary Voltage - DC600mA 24-50V' },
+    { id:3, src: img44, title: 'Fiber Glass Sleeve' },
   ];
   
 

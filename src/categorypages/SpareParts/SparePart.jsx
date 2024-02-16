@@ -30,6 +30,7 @@ import img14 from './Face & Body Paint.jpg'
 import img15 from './V Belt SPA 1532.jpg'
 import img16 from './Battery 3.7V.jpg'
 import SocialIcons from '../../SocialIcons';
+import img17 from './speaker-membrane_1204-366.avif'
 
   const images = [
     { id: 1, src: Puncher, title: '3 Hole Puncher    ' },
@@ -56,6 +57,7 @@ import SocialIcons from '../../SocialIcons';
     { id: 2, src: img14, title: 'Face & Body Paint' },
     { id: 3, src: img15, title: 'V Belt SPA 1532' },
     { id: 4, src: img16, title: 'Battery 3.7V' },
+    { id: 1, src: img17, title: 'Speakers - 4 Ohm' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
