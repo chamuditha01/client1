@@ -15,6 +15,7 @@ import img7 from './Oil Seal for Laundry Dryer 25 37 7 14 YXDJ.jpg'
 import img8 from './Tiki Torch Wick (Meter).jpg'
 import img9 from './2CM Oil Lamp Wick.jpg'
 import img10 from './Garbadge Bags XXXL.jpg'
+import SocialIcons from '../../SocialIcons';
 
   const images = [
     { id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
@@ -38,6 +39,7 @@ const HouseKeeping = () => {
   return (
     <div>
       <Navbar1/>
+      <SocialIcons/>
       <div>
     <div id="igmdiv" >
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>House Keeping, Loundry And Kitchen Departments</h1>

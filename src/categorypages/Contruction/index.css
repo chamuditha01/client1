@@ -14,7 +14,8 @@
 
 #pa{
     font-weight: bold;
-    
+    width: 280px;
+    height: 40px;
 }
 #imgcat:hover{
    background: aquamarine;

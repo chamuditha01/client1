@@ -19,9 +19,9 @@ const ImageGrid = () => {
     { id: 3, src: img3, title: 'Spare Parts & Others',href:'page3' },
     { id: 1, src: img4, title: 'Engineering products and accessories' ,href:'page4'},
     { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen Departments',href:'page5'},
-    { id: 1, src: img6, title: 'Marine, Cold room, Swimming Pool',href:'page6' },
-    { id: 3, src: img7, title: 'Tools and Maintenance related',href:'page7' },
-    { id: 2, src: img8, title: 'Others' ,href:'page8'}
+    { id: 3, src: img6, title: 'Marine, Cold room, Swimming Pool',href:'page6' },
+    { id: 1, src: img7, title: 'Tools and Maintenance related',href:'page7' },
+    { id: 3, src: img8, title: 'Others' ,href:'page8'}
   ];
   
 
@@ -54,9 +54,9 @@ const ImageGrid = () => {
       />
       <div className="overlay"></div>
     </div>
-                <p id="pa" className="mt-2">
+                <h6  className="mt-2">
                   {image.title}
-                </p>
+                </h6>
               </div>
               </a>
             </Col>

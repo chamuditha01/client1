@@ -29,6 +29,7 @@ import img13 from './Face & Body Paint 25ml 6Pcs Set.jpg'
 import img14 from './Face & Body Paint.jpg'
 import img15 from './V Belt SPA 1532.jpg'
 import img16 from './Battery 3.7V.jpg'
+import SocialIcons from '../../SocialIcons';
 
   const images = [
     { id: 1, src: Puncher, title: '3 Hole Puncher    ' },
@@ -66,6 +67,7 @@ const SpareParts = () => {
   return (
     <div>
       <Navbar1/>
+      <SocialIcons/>
       <div>
     <div id="igmdiv" >
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>Spare Parts And Others</h1>

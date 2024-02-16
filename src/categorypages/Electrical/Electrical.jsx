@@ -35,6 +35,20 @@ import img26 from './LED Cold Room Light 230V.webp'
 import img27 from './IC HC 40 53A.jpg'
 import img28 from './Capacitor 60uf 230V.jpg'
 import img29 from './Capacitor 120uf 230V.jpg'
+import img30 from './Fork Lug 1.5mm.jpg'
+import img31 from './Cable Lug 1.5mm Male.jpg'
+import img32 from './Solder remover wic wire.jpg'
+import img33 from './Diode 1.5K.jpg'
+import img34 from './RS 485 to USB Connector.jpg'
+import img35 from './Timer Anly.jpg'
+import img36 from './Digital thermostat Brand.jpg'
+import img37 from './Mosfet G20N50C.jpg'
+import img38 from './Rectifier MGF65A4R.jpg'
+import img39 from './Rectifier IRF3710 P725P.jpg'
+import img40 from './Universal Power Supply Module.jpg'
+import img41 from './Toggle Switch with Cover.jpg'
+import img42 from './IC ADS 1243.jpg'
+
 
   const images = [
     { id: 1, src: Extension, title: 'Orange Extension Cord - 5Meter    ' },
@@ -65,6 +79,19 @@ import img29 from './Capacitor 120uf 230V.jpg'
     { id: 2, src: img27, title: 'IC HC 40 53A' },
     { id: 3, src: img28, title: 'Capacitor 60uf 230V' },
     { id: 4, src: img29, title: 'Capacitor 120uf 230V' },
+    { id: 1, src: img30, title: 'Fork Lug 1.5mm' },
+    { id: 2, src: img31, title: 'cable Lug 1.5mm Male' },
+    { id: 3, src: img32, title: 'Solder remover wic wire' },
+    { id: 4, src: img33, title: 'Diode 1.5K' },
+    { id: 1, src: img34, title: 'RS 485 to USB Connector' },
+    { id: 2, src: img35, title: 'Timer Anly' },
+    { id: 3, src: img36, title: 'Digital thermostat Brand' },
+    { id: 4, src: img37, title: 'Mosfet G20N50C' },
+    { id: 1, src: img38, title: 'Rectifier MGF65A4R' },
+    { id: 2, src: img39, title: 'Rectifier IRF3710 P725P' },
+    { id: 3, src: img40, title: 'Universal Power Supply Module' },
+    { id:4, src: img41, title: 'Toggle Switch with Covere' },
+    { id:1, src: img42, title: 'IC ADS 1243' },
   ];
   
 

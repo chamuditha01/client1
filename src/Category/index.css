@@ -13,10 +13,11 @@
    
 }
 
-#pa{
+#pas{
     font-weight: bold;
     width: 280px;
     height: 32px;
+    text-align: center;
 }
 #imgcat:hover{
    background: aquamarine;
@@ -55,7 +56,24 @@
   }
   
   /* You can adjust the rest of the styling as needed */
-  
+  @media (max-width: 500px) {
+    #imgcat{
+        height: 230px;
+       width: 230px;
+       
+    }
+    #igmdiv{
+        margin-right:0px;
+        margin-left: 0px;
+     }
+
+     #pas{
+      font-weight: bold;
+      width: 250px;
+      height: 32px;
+      text-align: center;
+  }
+  }
 
 @media (max-width: 1200px) {
     #imgcat{
@@ -67,5 +85,12 @@
         margin-right:0px;
         margin-left: 0px;
      }
+
+     #pas{
+      font-weight: bold;
+      width: 250px;
+      height: 32px;
+      
+  }
   }
  

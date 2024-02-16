@@ -5,6 +5,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import SocialIcons from '../../SocialIcons';
 
 
   const images = [
@@ -27,6 +28,7 @@ const Others = () => {
   return (
     <div>
       <Navbar1/>
+      <SocialIcons/>
       <div>
     <div id="igmdiv" >
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>Others</h1>

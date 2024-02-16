@@ -22,6 +22,10 @@ import img14 from './H3 Bulb.jpg'
 import img15 from './Schneider Contactor LC1K1210M7.jpg'
 import img16 from './Imhoff Cone Testing Kit.jpg'
 import img17 from './LPG Gas Regulator - HWA Young.jpg'
+import img18 from './ABB Contactor 141001R8000.jpg'
+import img19 from './SS Heating Element.jpg'
+import SocialIcons from '../../SocialIcons';
+import img20 from './modern-round-desk-fan-with-simple-background_23-2150808049.avif'
 
   const images = [
     { id: 1, src: img1, title: 'Pneumatic hose 4MM (Meter)' },
@@ -41,6 +45,9 @@ import img17 from './LPG Gas Regulator - HWA Young.jpg'
     { id: 3, src: img15, title: 'Schneider Contactor LC1K1210M7' },
     { id: 4, src: img16, title: 'Imhoff Cone Testing Kit' },
     { id: 1, src: img17, title: 'LPG Gas Regulator - HWA Young' },
+    { id: 2, src: img18, title: 'ABB Contactor 141001R8000' },
+    { id: 3, src: img19, title: 'SS Heating Element' },
+    { id: 4, src: img20, title: '12" Axial Fan 2D-300S-92/35-GAruki Brand' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
@@ -52,6 +59,7 @@ const Engineeringproduct = () => {
   return (
     <div>
       <Navbar1/>
+      <SocialIcons/>
       <div>
     <div id="igmdiv" >
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>Engineering Products And Accessories</h1>

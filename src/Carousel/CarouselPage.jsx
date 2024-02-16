@@ -160,7 +160,7 @@ function CarouselPage() {
           />
          <Carousel.Caption className="text-center">
             <h3  style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p id="pr">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p id="pr">THE LARGEST COMPANY IN SRI LANKA</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -172,7 +172,7 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
             <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p id="pr">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p id="pr">THE LARGEST COMPANY IN SRI LANKA</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -184,7 +184,7 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
             <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p id="pr">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p id="pr">THE LARGEST COMPANY IN SRI LANKA</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

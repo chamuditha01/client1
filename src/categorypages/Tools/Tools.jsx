@@ -7,14 +7,18 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import img1 from './front-view-worker-using-drill_23-2149916311.avif'
 import img2 from './NSK Bearring LP205.webp'
+import img3 from './Drill Machine Armture HR2470.jpg'
+import img4 from './3 Jaws Filter Wrench.jpg'
+import SocialIcons from '../../SocialIcons';
+import img5 from './Drywall Sander MDWS225.jpg'
 
   const images = [
     { id: 1, src: img1, title: 'Impact driver' },
     { id: 2, src: img2, title: 'NSK Bearring LP205' },
-    /*{ id: 3, src: img3, title: 'Spare Parts & Others'},
-    { id: 4, src: img4, title: 'Engineering product and accessories' },
-    { id: 1, src: img5, title: 'House Keeping, Laundry & Kitchen '},
-    { id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },
+    { id: 3, src: img3, title: 'Drill Machine Armture HR2470'},
+    { id: 4, src: img4, title: '3 Jaws Filter Wrench' },
+    { id: 1, src: img5, title: 'Drywall Sander MDWS225'},
+    /*{ id: 2, src: img6, title: 'Marine, Cold room, Swimming Pool' },
     { id: 3, src: img7, title: 'Tools and Maintenance related' },
     { id: 4, src: img8, title: 'Others' }*/
   ];
@@ -28,6 +32,7 @@ const Tools = () => {
   return (
     <div>
       <Navbar1/>
+      <SocialIcons/>
       <div>
     <div id="igmdiv" >
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>Tools And Maintanance Related</h1>
