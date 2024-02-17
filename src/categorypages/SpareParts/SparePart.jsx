@@ -31,7 +31,13 @@ import img15 from './V Belt SPA 1532.jpg'
 import img16 from './Battery 3.7V.jpg'
 import SocialIcons from '../../SocialIcons';
 import img17 from './speaker-membrane_1204-366.avif'
-
+import img18 from "./Belt 1956J - 9 ribs.jpg"
+import img19 from "./Tyre 15580R13 With Rim.jpg"
+import img20 from "./LPG Hose 14'' x 600MM , 22Bar.jpg"
+import img21 from "./SKF - Bearing Grease.jpg"
+import img22 from "./Makita Planer 1902 2250718 Belt.jpg"
+import img23 from "./Gasful Adaptor - GoldenFuji 183B.jpg"
+import img24 from "./Cool Room Defrosting Element - 230V 1000W.jpg"
   const images = [
     { id: 1, src: Puncher, title: '3 Hole Puncher    ' },
     { id: 2, src: Laminating, title: 'A3 Laminating Machine    ' },
@@ -58,6 +64,13 @@ import img17 from './speaker-membrane_1204-366.avif'
     { id: 3, src: img15, title: 'V Belt SPA 1532' },
     { id: 4, src: img16, title: 'Battery 3.7V' },
     { id: 1, src: img17, title: 'Speakers - 4 Ohm' },
+    { id: 4, src: img18, title: 'Belt 1956J - 9 ribs' },
+    { id: 4, src: img19, title: 'Tyre 155/80/R13 With Rim' },
+    { id: 4, src: img20, title: 'LPG Hose 1/4 x 600MM , 22Bar' },
+    { id: 4, src: img21, title: 'SKF - Bearing Grease' },
+    { id: 4, src: img22, title: 'Makita Planer 1902 / 225071-8 Belt' },
+    { id: 4, src: img23, title: 'Gasful Adaptor - GoldenFuji 183B' },
+    { id: 4, src: img24, title: 'Cool Room Defrosting Element - 230V 1000W' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

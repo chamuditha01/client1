@@ -26,7 +26,8 @@ import img18 from './ABB Contactor 141001R8000.jpg'
 import img19 from './SS Heating Element.jpg'
 import SocialIcons from '../../SocialIcons';
 import img20 from './modern-round-desk-fan-with-simple-background_23-2150808049.avif'
-
+import img21 from "./Salamander Element L1250mm.jpg"
+import img22 from "./Clamp Tester Fluke Model - 317.jpg"
   const images = [
     { id: 1, src: img1, title: 'Pneumatic hose 4MM (Meter)' },
     { id: 2, src: img2, title: 'Bearring 6206 2RS' },
@@ -48,6 +49,8 @@ import img20 from './modern-round-desk-fan-with-simple-background_23-2150808049.
     { id: 2, src: img18, title: 'ABB Contactor 141001R8000' },
     { id: 3, src: img19, title: 'SS Heating Element' },
     { id: 4, src: img20, title: '12" Axial Fan 2D-300S-92/35-GAruki Brand' },
+    { id: 3, src: img21, title: 'Salamander Element L:1250mm' },
+    { id: 3, src: img22, title: 'Clamp Tester Fluke Model - 317' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

@@ -16,6 +16,7 @@ import img8 from './Tiki Torch Wick (Meter).jpg'
 import img9 from './2CM Oil Lamp Wick.jpg'
 import img10 from './Garbadge Bags XXXL.jpg'
 import SocialIcons from '../../SocialIcons';
+import img11 from "./Rice Cooker - Bush.jpg"
 
   const images = [
     { id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
@@ -28,6 +29,7 @@ import SocialIcons from '../../SocialIcons';
     { id: 4, src: img8, title: 'Tiki Torch Wick (Meter)' },
     { id: 1, src: img9, title: '2CM Oil Lamp Wick' },
     { id: 2, src: img10, title: 'Garbadge Bags XXXL' },
+    { id: 1, src: img11, title: 'Rice Cooker - Bush' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
