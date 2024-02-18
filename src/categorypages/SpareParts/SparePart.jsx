@@ -31,6 +31,8 @@ import img15 from './V Belt SPA 1532.jpg'
 import img16 from './Battery 3.7V.jpg'
 import SocialIcons from '../../SocialIcons';
 import img17 from './speaker-membrane_1204-366.avif'
+import img18 from './sanitary-equipment_93675-132398.avif'
+import img19 from './usb-charging-cables-with-smartphone-battery-bank-top-view_35712-536.avif'
 
   const images = [
     { id: 1, src: Puncher, title: '3 Hole Puncher    ' },
@@ -58,6 +60,8 @@ import img17 from './speaker-membrane_1204-366.avif'
     { id: 3, src: img15, title: 'V Belt SPA 1532' },
     { id: 4, src: img16, title: 'Battery 3.7V' },
     { id: 1, src: img17, title: 'Speakers - 4 Ohm' },
+    { id: 2, src: img18, title: 'Pressure Sensor - Washing Machine LG' },
+    { id: 3, src: img19, title: 'USB 2.0 Male to Mini USB - Blue' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
@@ -77,21 +81,19 @@ const SpareParts = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>
       {images.length > 0 && (
-        
         <Row xs={1} sm={2} md={3} lg={4} className="g-4">
           {images.map((image, index) => (
             <Col key={image.id}>
               <a style={{textDecoration:'none', color:'black', fontFamily:'cursive'}} >
               <div  className={`text-center ${isLastRow(index) ? 'mx-auto' : ''}`}>
               <div className="image-containe">
-      <img
-        src={image.src}
-        className="img"
-        id="imgcat"
-        alt="Image"
-      />
-      <div className="overlay"></div>
-    
+              <img
+                src={image.src}
+                className="img"
+                id="imgcat"
+                alt="Image"
+              />
+              <div className="overlay"></div>
                 <p id="pa" className="mt-2">
                   {image.title}
                 </p>
@@ -100,12 +102,13 @@ const SpareParts = () => {
             </Col>
           ))}
         </Row>
-        
       )}</div>}
     </TrackVisibility>
     </div>
   </div>
-  <Footer/>
+  <div id="footer" >
+        <Footer/>
+        </div>
     </div>
   );
 };

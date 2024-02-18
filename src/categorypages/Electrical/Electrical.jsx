@@ -94,7 +94,7 @@ import img44 from './close-up-perforated-fabric_23-2149894534.avif'
     { id: 3, src: img40, title: 'Universal Power Supply Module' },
     { id:4, src: img41, title: 'Toggle Switch with Covere' },
     { id:1, src: img42, title: 'IC ADS 1243' },
-    { id:2, src: img43, title: 'Led Driver Primary voltage - 190-265V 50/60Hz Secondary Voltage - DC600mA 24-50V' },
+    { id:2, src: img43, title: 'Led Driver Primary voltage - 190-265V Secondary Voltage - 24-50V' },
     { id:3, src: img44, title: 'Fiber Glass Sleeve' },
   ];
   
@@ -144,7 +144,9 @@ const Electrical = () => {
     </TrackVisibility>
     </div>
   </div>
-      <Footer/>
+  <div id="footer" >
+        <Footer/>
+        </div>
     </div>
   );
 };

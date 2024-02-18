@@ -95,7 +95,9 @@ const Engineeringproduct = () => {
     </TrackVisibility>
     </div>
   </div>
-  <Footer/>
+  <div id="footer" >
+        <Footer/>
+        </div>
     </div>
   );
 };

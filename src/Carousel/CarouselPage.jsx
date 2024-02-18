@@ -91,7 +91,7 @@ function CarouselPage() {
                   NavItem
                   
                   name={"Contact Us"}
-                  path={"/Contact Us"}
+                  path={"#footer"}
                 />
             
                 <li className="nav-item dropdown ">

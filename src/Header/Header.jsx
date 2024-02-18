@@ -17,7 +17,9 @@ const Header = () => {
     
     >
       <div className="container2">
-        <CarouselPage/><AboutUs/><ImageGrid/>
+        <CarouselPage/>
+        <AboutUs/>
+        <ImageGrid/>
         
       </div>
     </div>
