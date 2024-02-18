@@ -6,7 +6,7 @@ import './index.css';
 const WhatsAppIcon = () => {
     return (
         <div >
-            <a  href="whatsapp://send?phone=+94740459715&text=Hello%20there!">
+            <a  href="whatsapp://send?phone=+94769673620&text=Hello%20there!">
             <img className='whatsapp-icon' src={wtspimg} alt="WhatsApp" />
         </a>
         </div>

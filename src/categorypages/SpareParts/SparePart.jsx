@@ -38,8 +38,8 @@ import img21 from "./SKF - Bearing Grease.jpg"
 import img22 from "./Makita Planer 1902 2250718 Belt.jpg"
 import img23 from "./Gasful Adaptor - GoldenFuji 183B.jpg"
 import img24 from "./Cool Room Defrosting Element - 230V 1000W.jpg"
-import img18 from './sanitary-equipment_93675-132398.avif'
-import img19 from './usb-charging-cables-with-smartphone-battery-bank-top-view_35712-536.avif'
+import img25 from './sanitary-equipment_93675-132398.avif'
+import img26 from './usb-charging-cables-with-smartphone-battery-bank-top-view_35712-536.avif'
 
   const images = [
     { id: 1, src: Puncher, title: '3 Hole Puncher    ' },

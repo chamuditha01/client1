@@ -37,7 +37,7 @@ const ImageGrid = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>
                 <hr ></hr>
-                <h1 style={{textAlign:'center', marginBottom:'50px', marginTop:'60px'}}>Categories</h1>
+                <h1 style={{textAlign:'center', marginBottom:'50px', marginTop:'100px'}}>Categories</h1>
       {images.length > 0 && (
         
         <Row xs={1} sm={2} md={3} lg={4} className="g-4">

@@ -222,6 +222,9 @@
   h3{
     text-align: left;
   }
+  #i2{
+    margin-left: -40px;
+  }
 }
 
 @media (max-width: 692px) {
