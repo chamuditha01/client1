@@ -36,7 +36,7 @@ import SocialIcons from '../../SocialIcons';
 import img28 from './1 Solenoid UniD Valve - US-25 Brand - UniD.jpg'
 import img29 from './Steam Solenoid Valve.jpg'
 import img30 from './women-s-high-boots-white-background_236836-4362.jpg'
-
+import img31 from "./Glass Strip 8MM.jpg"
 
   const images = [
     { id: 1, src: img1, title: 'Yoma Sliding Door Closer 110D' },
@@ -68,7 +68,8 @@ import img30 from './women-s-high-boots-white-background_236836-4362.jpg'
     { id: 3, src: img28, title: '1" Solenoid UniD Valve - US-25 Brand - UniD'},
     { id: 4, src: img29, title: 'Steam Solenoid Valve 3/4'},
     { id: 1, src: img30, title: 'Gumboot White Size 44'},
-    
+    { id: 1, src: img31, title: 'Glass Strip 8MM'},
+   
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

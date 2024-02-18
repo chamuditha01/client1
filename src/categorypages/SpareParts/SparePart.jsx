@@ -31,6 +31,13 @@ import img15 from './V Belt SPA 1532.jpg'
 import img16 from './Battery 3.7V.jpg'
 import SocialIcons from '../../SocialIcons';
 import img17 from './speaker-membrane_1204-366.avif'
+import img18 from "./Belt 1956J - 9 ribs.jpg"
+import img19 from "./Tyre 15580R13 With Rim.jpg"
+import img20 from "./LPG Hose 14'' x 600MM , 22Bar.jpg"
+import img21 from "./SKF - Bearing Grease.jpg"
+import img22 from "./Makita Planer 1902 2250718 Belt.jpg"
+import img23 from "./Gasful Adaptor - GoldenFuji 183B.jpg"
+import img24 from "./Cool Room Defrosting Element - 230V 1000W.jpg"
 import img18 from './sanitary-equipment_93675-132398.avif'
 import img19 from './usb-charging-cables-with-smartphone-battery-bank-top-view_35712-536.avif'
 
@@ -60,8 +67,16 @@ import img19 from './usb-charging-cables-with-smartphone-battery-bank-top-view_3
     { id: 3, src: img15, title: 'V Belt SPA 1532' },
     { id: 4, src: img16, title: 'Battery 3.7V' },
     { id: 1, src: img17, title: 'Speakers - 4 Ohm' },
-    { id: 2, src: img18, title: 'Pressure Sensor - Washing Machine LG' },
-    { id: 3, src: img19, title: 'USB 2.0 Male to Mini USB - Blue' },
+    { id: 2, src: img18, title: 'Belt 1956J - 9 ribs' },
+    { id: 3, src: img19, title: 'Tyre 155/80/R13 With Rim' },
+    { id: 4, src: img20, title: 'LPG Hose 1/4 x 600MM , 22Bar' },
+    { id: 1, src: img21, title: 'SKF - Bearing Grease' },
+    { id: 2, src: img22, title: 'Makita Planer 1902 / 225071-8 Belt' },
+    { id: 3, src: img23, title: 'Gasful Adaptor - GoldenFuji 183B' },
+    { id: 4, src: img24, title: 'Cool Room Defrosting Element - 230V 1000W' },
+    { id: 2, src: img25, title: 'Pressure Sensor - Washing Machine LG' },
+    { id: 3, src: img26, title: 'USB 2.0 Male to Mini USB - Blue' },
+
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;

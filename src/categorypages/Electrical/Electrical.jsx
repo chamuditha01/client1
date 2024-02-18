@@ -50,7 +50,17 @@ import img41 from './Toggle Switch with Cover.jpg'
 import img42 from './IC ADS 1243.jpg'
 import img43 from './service-maintenance-worker-repairing_23-2149176685.avif'
 import img44 from './close-up-perforated-fabric_23-2149894534.avif'
-
+import img45 from "./Rectifier H26FF Y2010DN.jpg"
+import img46 from "./Solder remover wic wire.jpg"
+import img47 from "./5W74Ohm - Ceramic Resistor.png"
+import img48 from "./LDNIO C Type Cable - White & Blue.png"
+import img49 from "./Power Supply - SKC Anver 230V 200MA 12V.jpg"
+import img50 from "./Digital Temperature Controller - HT400-101000.jpg"
+import img51 from "./Motor Rewinding Coil Copper - Gauge 32.jpg"
+import img52 from "./Fuse -16A 500V(10 x 38).jpg"
+import img53 from "./Desoldering Pump - Joot Bran.jpg"
+import img54 from "./Relay 230V 10A - 8Pin.jpg"
+import img55 from "./Digital Multimeter CD800a - Sanwa.jpg"
 
   const images = [
     { id: 1, src: Extension, title: 'Orange Extension Cord - 5Meter    ' },
@@ -96,6 +106,17 @@ import img44 from './close-up-perforated-fabric_23-2149894534.avif'
     { id:1, src: img42, title: 'IC ADS 1243' },
     { id:2, src: img43, title: 'Led Driver Primary voltage - 190-265V Secondary Voltage - 24-50V' },
     { id:3, src: img44, title: 'Fiber Glass Sleeve' },
+    { id:3, src: img45, title: 'Rectifier H26FF Y2010DN' },
+    { id:3, src: img46, title: 'Solder remover wic wire' },
+    { id:3, src: img47, title: '5W74Ohm - Ceramic Resistor' },
+    { id:1, src: img48, title: 'LDNIO C Type Cable - White & Blue' },
+    { id:1, src: img49, title: 'Power Supply - SKC Anver 230V 200MA 12V' },
+    { id:1, src: img50, title: 'Digital Temperature Controller - HT400-101000' },
+    { id:1, src: img51, title: 'Motor Rewinding Coil Copper - Gauge 32' },
+    { id:1, src: img52, title: 'Fuse -16A 500V(10 x 38)' },
+    { id:1, src: img53, title: 'Desoldering Pump - Joot Bran' },
+    { id:1, src: img54, title: 'Relay 230V 10A - 8Pin' },
+    { id:1, src: img55, title: 'Digital Multimeter CD800a - Sanwa' },
   ];
   
 
