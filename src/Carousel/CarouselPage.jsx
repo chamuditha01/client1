@@ -139,7 +139,7 @@ function CarouselPage() {
 
                 </li>
                 <a id="i2">
-                <img  style={{ width: "150px", marginTop:'-120px',marginBottom:'-170px',marginLeft:'55px'}} src={logo2} alt="Logo" />
+                <img  style={{ width: "100px", marginTop:'-130px',marginBottom:'-170px',marginLeft:'90px'}} src={logo2} alt="Logo" />
               </a>
                 
               </ul>
