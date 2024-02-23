@@ -8,7 +8,7 @@ import Container from "react-bootstrap/Container";
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
-import logo2 from './logo5.png'
+import logo2 from './logo55.png'
 
 
 function Navbar1() {

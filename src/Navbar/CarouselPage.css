@@ -167,6 +167,8 @@
   
   width: 130px;
   margin-left: 130px;
+  margin-bottom: 500px;
+  padding-bottom: 100px;
 }
 
 @media (min-width: 992px) {
