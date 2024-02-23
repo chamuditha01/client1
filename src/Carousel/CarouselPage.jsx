@@ -9,7 +9,7 @@ import "./CarouselPage.css";
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
-import logo2 from './logo5.png'
+import logo2 from "./logo11111.png"
 import { Color } from "three";
 import { Link } from 'react-router-dom';
 
