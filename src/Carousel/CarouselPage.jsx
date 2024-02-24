@@ -129,8 +129,13 @@ function CarouselPage() {
             alt="First slide"
           />
          <Carousel.Caption className="text-center">
-            <h3  style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p id="pr">THE LARGEST COMPANY IN SRI LANKA</p>
+         <h3 class="carousel-heading">
+  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+</h3>
+
+
+
+          
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -141,8 +146,11 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption className="text-center">
-            <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p id="pr">THE LARGEST COMPANY IN SRI LANKA</p>
+          <h3 class="carousel-heading">
+  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+</h3>
+
+       
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -153,8 +161,11 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption className="text-center">
-            <h3 style={{ color: 'red' }}>THE LARGEST  COMPANY IN SRI LANKA</h3>
-            <p id="pr">THE LARGEST COMPANY IN SRI LANKA</p>
+          <h3 class="carousel-heading">
+  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+</h3>
+
+           
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
