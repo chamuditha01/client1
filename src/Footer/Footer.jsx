@@ -17,20 +17,19 @@ const Footer = () => {
       <div className="footer-col">
         <h4>products</h4>
         <ul>
-          <li><a href="#">teams</a></li>
-          <li><a href="#">advertising</a></li>
-          <li><a href="#">talent</a></li>
+          <li><a href="/page1">Electrical & Electronic</a></li>
+          <li><a href="/page2">Construction, Engineering</a></li>
+          <li><a href="/page3">Spare Parts</a></li>
+          <li><a href=".page4">Engineering products</a></li>
         </ul>
-        <hr />
+        <hr/>
       </div>
       <div className="footer-col">
-        <h4>network</h4>
+        <h4>products</h4>
         <ul>
-          <li><a href="#">technology</a></li>
-          <li><a href="#">science</a></li>
-          <li><a href="#">business</a></li>
-          <li><a href="#">professional</a></li>
-          <li><a href="#">API</a></li>
+          <li><a href="/page5">House Keeping, Laundry</a></li>
+          <li><a href="/page6">Marine, Cold room</a></li>
+          <li><a href="/page7">Tools and Maintenance</a></li>
         </ul>
         <hr />
       </div>
@@ -44,12 +43,12 @@ const Footer = () => {
         <hr />
       </div>
       <div className="footer-col">
-        <h4>follow us</h4>
+        <h4>Contact us</h4>
         <div className="links">
-          <a href="#"><i className="fab fa-linkedin-in"><FaFacebookF size={30} style={{marginBottom:'6px'}}/></i></a>
-          <a href="#"><i className="fab fa-facebook-f"><ImLinkedin2 size={30} style={{marginBottom:'7px'}}/></i></a>
-          <a href="#"><i className="fab fa-twitter"><MdAddCall size={30} style={{marginBottom:'4px'}}/></i></a>
-          <a href="#"><i className="fab fa-instagram"><TfiEmail size={30} style={{marginBottom:'4px'}}/></i></a>
+          <a href="#"><i className="FaFacebookF"><FaFacebookF size={30} style={{marginBottom:'6px'}}/></i></a>
+          <a href="#"><i className="ImLinkedin2"><ImLinkedin2 size={30} style={{marginBottom:'7px'}}/></i></a>
+          <a href="tel:+94769673620"><i className="MdAddCall"><MdAddCall size={30} style={{marginBottom:'4px'}}/></i></a>
+          <a href="mailto:info@hanaftraders.com"><i className="TfiEmail"><TfiEmail size={30} style={{marginBottom:'4px'}}/></i></a>
         </div>
       </div>
     </footer>

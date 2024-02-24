@@ -108,12 +108,12 @@ function CarouselPage() {
                   </div>
                 </li>
                 <a id="i2">
-                <img  style={{ width: "150px", marginTop:'-120px',marginBottom:'-170px',marginLeft:'55px'}} src={logo2} alt="Logo" />
+                <img  style={{ width: "120px", marginTop:'-120px',marginBottom:'-170px',marginLeft:'55px'}} src={logo2} alt="Logo" />
               </a>
                 
               </ul>
               <a className="navbar-brand" href="/">
-                <img id="i1" style={{ width: "35px", marginTop:'-70px',marginBottom:'-70px'}} src={logo1} alt="Logo" />
+                <img id="i1" style={{ width: "35px", marginTop:'-80px',marginBottom:'-70px'}} src={logo1} alt="Logo" />
               </a>
             </div>
           </div>
