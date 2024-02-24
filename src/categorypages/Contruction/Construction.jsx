@@ -19,7 +19,7 @@ import img11 from "./0.5'' Steam ball cock Valve - Kitz.jpg";
 import img12 from "./2 Inch Pegler Ball Cock Valve.jpg";
 import img13 from "./Full Face Safety Visor.jpg";
 import img14 from "./Steam Solenoid Valve 1.jpg";
-import img15 from "./Black Iron Bolt 13.5MM.jpg"
+import img15 from "./bolts-nuts.jpg"
 import img16 from "./Track Buffer for Sliding Door - Hafele.jpg";
 import img17   from "./SS Mat Hingus.jpg";
 import img18   from "./Gasket Sheet 3mm 5FT x 5FT.jpg"

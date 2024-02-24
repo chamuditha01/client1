@@ -9,7 +9,7 @@ import "./CarouselPage.css";
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
-import logo2 from "./logo55.png";
+import logo2 from "./logo56.png";
 import { Color } from "three";
 import { Link } from 'react-router-dom';
 
@@ -108,7 +108,7 @@ function CarouselPage() {
                   </div>
                 </li>
                 <a id="i2">
-                <img  style={{ width: "120px", marginTop:'-120px',marginBottom:'-170px',marginLeft:'55px'}} src={logo2} alt="Logo" />
+                <img  style={{ width: "120px", marginTop:'-125px',marginBottom:'-170px',marginLeft:'85px'}} src={logo2} alt="Logo" />
               </a>
                 
               </ul>
