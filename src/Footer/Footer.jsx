@@ -37,7 +37,7 @@ const Footer = () => {
         <h4>company</h4>
         <ul>
           <li><a href="/aboutus">about</a></li>
-          <li><a href="#">legal</a></li>
+          
           
         </ul>
         <hr />
