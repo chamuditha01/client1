@@ -52,7 +52,7 @@ import img43 from './service-maintenance-worker-repairing_23-2149176685.avif'
 import img44 from './close-up-perforated-fabric_23-2149894534.avif'
 import img45 from "./Rectifier H26FF Y2010DN.jpg"
 import img46 from "./Solder remover wic wire.jpg"
-import img47 from "./5W74Ohm - Ceramic Resistor.png"
+import img47 from "./5W74Ohm - Ceramic Resistor.jpg"
 import img48 from "./LDNIO C Type Cable - White & Blue.png"
 import img49 from "./Power Supply - SKC Anver 230V 200MA 12V.jpg"
 import img50 from "./Digital Temperature Controller - HT400-101000.jpg"

@@ -3,8 +3,8 @@ import Carousel from "react-bootstrap/Carousel";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import img1 from "./img1.jpg";
-import img2 from "./img2.jpg";
-import img3 from "./img3.jpg";
+import img2 from "./img2.jpeg";
+import img3 from "./img3.jpeg";
 import "./CarouselPage.css";
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
@@ -130,8 +130,10 @@ function CarouselPage() {
           />
          <Carousel.Caption className="text-center">
          <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+  <span class="red-text">THE LEADING ENGINEERING</span> <br />
+  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
 </h3>
+
 
 
 
@@ -147,7 +149,8 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
           <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+  <span class="red-text">THE LEADING ENGINEERING</span> <br />
+  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
 </h3>
 
        
@@ -162,8 +165,10 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
           <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+  <span class="red-text">THE LEADING ENGINEERING</span> <br />
+  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
 </h3>
+
 
            
           </Carousel.Caption>
