@@ -45,7 +45,6 @@ const Footer = () => {
       <div className="footer-col">
         <h4>Contact us</h4>
         <div className="links">
-          <a href="#"><i className="FaFacebookF"><FaFacebookF size={30} style={{marginBottom:'6px'}}/></i></a>
           <a href="#"><i className="ImLinkedin2"><ImLinkedin2 size={30} style={{marginBottom:'7px'}}/></i></a>
           <a href="tel:+94769673620"><i className="MdAddCall"><MdAddCall size={30} style={{marginBottom:'4px'}}/></i></a>
           <a href="mailto:info@hanaftraders.com"><i className="TfiEmail"><TfiEmail size={30} style={{marginBottom:'4px'}}/></i></a>
