@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "name": "hanaf  traders",
+  "homepage": "https://hanaftraders.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
