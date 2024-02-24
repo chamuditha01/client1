@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="footer-col">
         <h4>Contact us</h4>
         <div className="links">
-          <a href="#"><i className="ImLinkedin2"><ImLinkedin2 size={30} style={{marginBottom:'7px'}}/></i></a>
+          <a href="https://www.linkedin.com/in/fahad-lahir-360368140?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="ImLinkedin2"><ImLinkedin2 size={30} style={{marginBottom:'7px'}}/></i></a>
           <a href="tel:+94769673620"><i className="MdAddCall"><MdAddCall size={30} style={{marginBottom:'4px'}}/></i></a>
           <a href="mailto:info@hanaftraders.com"><i className="TfiEmail"><TfiEmail size={30} style={{marginBottom:'4px'}}/></i></a>
         </div>
