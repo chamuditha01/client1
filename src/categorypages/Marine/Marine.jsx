@@ -14,7 +14,7 @@ import img5 from './Swimming Pool Cleaning Net.jpg'
 import img6 from './Swimming Pool Vaccum Head 18.jpg'
 
   const images = [
-    { id: 1, src: img1, title: 'Electrical & Electronic' },
+    { id: 1, src: img1, title: 'Cold room door lock' },
     { id: 2, src: img2, title: 'Water Level Gauge (Glass)' },
     { id: 3, src: img3, title: 'Waterproof Portable Oxygen Air pump'},
    { id: 4, src: img4, title: 'Boyu S 4000 Way Air Pump' },
