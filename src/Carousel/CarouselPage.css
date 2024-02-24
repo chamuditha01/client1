@@ -29,7 +29,9 @@
 .red-text {
   color: red;
 }
-
+.black-text {
+  color: rgb(255, 255, 255);
+}
 
 
   .navbar-nav{

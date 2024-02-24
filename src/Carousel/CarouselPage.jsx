@@ -130,8 +130,10 @@ function CarouselPage() {
           />
          <Carousel.Caption className="text-center">
          <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+  <span class="red-text">THE LEADING ENGINEERING</span> <br />
+  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
 </h3>
+
 
 
 
@@ -147,7 +149,8 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
           <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+  <span class="red-text">THE LEADING ENGINEERING</span> <br />
+  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
 </h3>
 
        
@@ -162,8 +165,10 @@ function CarouselPage() {
           />
           <Carousel.Caption className="text-center">
           <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> PRODUCTS AND SPARE PARTS SUPPLIER
+  <span class="red-text">THE LEADING ENGINEERING</span> <br />
+  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
 </h3>
+
 
            
           </Carousel.Caption>
