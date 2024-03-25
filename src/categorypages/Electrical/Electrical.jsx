@@ -63,16 +63,16 @@ import img54 from "./Relay 230V 10A - 8Pin.jpg"
 import img55 from "./Digital Multimeter CD800a - Sanwa.jpg"
 
   const images = [
-    { id: 1, src: Extension, title: 'Orange Extension Cord - 5Meter    ' },
-    { id: 2, src: Resistant, title: '10mm Heat Resistant Fiberglass Sleeve    ' },
-    { id: 3, src: Heat, title: '8mm Heat Shrink Sleeve    '},
+    { id: 1, src: Extension, title: 'Orange Extension Cord    ' },
+    { id: 2, src: Resistant, title: ' Heat Resistant Fiberglass Sleeve    ' },
+    { id: 3, src: Heat, title: 'Heat Shrink Sleeve    '},
     { id: 4, src: Adaptor, title: 'AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A    ' },
     { id: 1, src: img5, title: '110V Contactor LS mc18b'},
     { id: 2, src: img6, title: 'Projector Lamp' },
     { id: 3, src: img7, title: 'Head torch Heavy Duty' },
-    { id: 4, src: img9, title: '10mm 600/1000V Battery Wire (Meter)' },
+    { id: 4, src: img9, title: '10mm 600/1000V Battery Wire ' },
     { id: 1, src: img10, title: 'IGBT Transistor STGW30NC60KD' },
-    { id: 2, src: img11, title: 'IRechargable Battery 3.7V' },
+    { id: 2, src: img11, title: 'IRechargable Battery ' },
     { id: 3, src: img12, title: 'Micro Limit Switch Long Lever 16A 250V' },
     { id: 4, src: img13, title: 'Battery 4V 300mA Wei Sheng' },
     { id: 1, src: img14, title: 'PCB Mount capacitor CBB61 2.5uf 400vac  ' },

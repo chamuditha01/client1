@@ -46,7 +46,7 @@ import img26 from './usb-charging-cables-with-smartphone-battery-bank-top-view_3
     { id: 2, src: Laminating, title: 'A3 Laminating Machine    ' },
     { id: 3, src: SKF, title: 'SKF LGFP 2 Food Grade Grease 1kg    '},
     { id: 4, src: Glass, title: 'Glass Paper Red    ' },
-    { id: 1, src: CHIRSTMAS, title: 'CHIRSTMAS GARLAND (6 FEET)    '},
+    { id: 1, src: CHIRSTMAS, title: 'CHIRSTMAS GARLAND     '},
     { id: 2, src: WIRELESS, title: 'WIRELESS EARBUDS    ' },
     { id: 3, src: Speakers, title: 'Speakers 33mm    ' },
     { id: 4, src: Belt, title: 'Makita Field Assy 5008MG' },
