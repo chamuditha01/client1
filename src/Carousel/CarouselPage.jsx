@@ -6,7 +6,6 @@ import img1 from "./img1.jpg";
 import img2 from "./img2.jpeg";
 import img3 from "./img3.jpeg";
 import "./CarouselPage.css";
-import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from "./logo56.png";
@@ -46,7 +45,7 @@ function CarouselPage() {
       >
         <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
           <a className="navbar-brand" href="/">
-            <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}} src={logo1} alt="Logo" />
+            <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}}  alt="Logo" />
           
           </a>
           <div className="container-fluid">
@@ -112,9 +111,7 @@ function CarouselPage() {
               </a>
                 
               </ul>
-              <a className="navbar-brand" href="/">
-                <img id="i1" style={{ width: "45px", marginTop:'-80px',marginBottom:'-70px'}} src={logo1} alt="Logo" />
-              </a>
+         
             </div>
           </div>
         </nav>
