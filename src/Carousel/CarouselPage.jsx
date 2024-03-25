@@ -174,7 +174,7 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+            <h3 id="h31" style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
               <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
             </h3>
           </Carousel.Caption>
@@ -187,12 +187,11 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-100px'}}>
               <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
             </h3>
           </Carousel.Caption>
         </Carousel.Item>
-
       </Carousel>
     </div>
   );

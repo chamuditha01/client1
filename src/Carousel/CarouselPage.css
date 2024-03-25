@@ -199,7 +199,9 @@
   height: auto;
     margin: 0px;
 }
-  
+#h31{
+    margin-left: 23px;
+  }
 }
 
 @media (min-width: 992px) {
