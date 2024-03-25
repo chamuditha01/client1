@@ -142,7 +142,7 @@ function Navbar1() {
                 
              
               </ul>
-              <img id="i2" style={{ width: "150px", marginTop:'-140px',marginBottom:'-170px'}} src={logo2} alt="Logo" />
+              <img id="i2" style={{ width: "160px", marginTop:'-140px',marginBottom:'-170px'}} src={logo2} alt="Logo" />
               
             </div>
           </div>

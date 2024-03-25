@@ -84,7 +84,7 @@ const Construction = () => {
       <SocialIcons/>
       <div>
     <div id="igmdiv" >
-        <h1 style={{marginBottom:'50px', textAlign:'center'}}>Construction, Engineering And Hardware</h1>
+        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>Construction, Engineering And Hardware</h1>
     <TrackVisibility partialVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>

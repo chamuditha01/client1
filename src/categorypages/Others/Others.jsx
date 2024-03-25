@@ -31,7 +31,7 @@ const Others = () => {
       <SocialIcons/>
       <div>
     <div id="igmdiv" >
-        <h1 style={{marginBottom:'50px', textAlign:'center'}}>Others</h1>
+        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>Others</h1>
         <h1 style={{marginBottom:'50px', textAlign:'center'}}>This Page is currently<br></br> Empty<br></br>View Other Categories</h1>
     <TrackVisibility partialVisibility>
               {({ isVisible }) =>
