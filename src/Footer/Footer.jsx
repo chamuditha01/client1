@@ -43,11 +43,8 @@ const Footer = () => {
         <hr />
       </div>
       <div className="footer-col">
-        <h4>company</h4>
-        
-     {/* Insert your company image here */}
-        <hr />
-        <img style={{width:'250px',height:'200px',marginLeft:'-30px'}} src={img1} alt="Logo" />
+       
+        <img style={{width:'400px',height:'250px'}} src={img1} alt="Logo" />
       </div>
     </footer>
   );
