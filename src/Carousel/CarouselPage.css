@@ -16,16 +16,19 @@
   height: 100px;
     margin: 0px;
 }.carousel-heading {
-  font-size: 32px; /* Adjust size as needed */
+  font-size: 20px; /* Adjust size as needed */
   font-weight: bold;
-  text-align: center; /* Center the heading */
-  margin-top: 20px; /* Adjust margin as needed */
-  margin-bottom: 20px; /* Adjust margin as needed */
-  text-transform: uppercase; /* Convert text to uppercase */
+  margin-top: 8px; /* Adjust margin as needed */
+  margin-bottom: 170px; /* Adjust margin as needed */
+ /* Set left margin to align text to the left corner */
+
   letter-spacing: 1px; /* Add letter spacing for better readability */
   font-family: Copperplate, sans-serif;
+  /* Align text to the left corner */
+
   /* Add any additional styles you desire */
 }
+
 
 .red-text {
   color: red;

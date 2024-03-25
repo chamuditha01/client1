@@ -126,10 +126,10 @@ function CarouselPage() {
             src={img1}
             alt="First slide"
           />
-         <Carousel.Caption className="text-center">
+         <Carousel.Caption >
          <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> <br />
-  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
+  
+  <span class="black-text">THE LEADING ENGINEERING PRODUCTS </span>
 </h3>
 
 
@@ -145,14 +145,11 @@ function CarouselPage() {
             src={img2}
             alt="First slide"
           />
-          <Carousel.Caption className="text-center">
-          <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> <br />
-  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
-</h3>
+
+         
 
        
-          </Carousel.Caption>
+       
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -161,15 +158,12 @@ function CarouselPage() {
             src={img3}
             alt="First slide"
           />
-          <Carousel.Caption className="text-center">
-          <h3 class="carousel-heading">
-  <span class="red-text">THE LEADING ENGINEERING</span> <br />
-  <span class="black-text">PRODUCTS AND SPARE PARTS SUPPLIER</span>
-</h3>
+         
+        
 
 
            
-          </Carousel.Caption>
+     
         </Carousel.Item>
       </Carousel>
       
