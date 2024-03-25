@@ -137,6 +137,12 @@
   width: 260px;
 }
 
+#n1{
+  width: 200%;
+height: 100px;
+  margin: 0px;
+}
+
 .dropdown-menu a {
   border-bottom: 1px solid #fff; /* Adjust color and thickness as needed */
   padding-bottom: 5px; /* Adjust spacing as needed */
@@ -154,7 +160,14 @@
   margin-right: 500px;
 }
 
-
+@media (max-width: 992px) {
+  #n1{
+    width: 200%;
+  height: auto;
+    margin: 0px;
+}
+  
+}
 
 
 /* Remove border on the last item */
