@@ -1,14 +1,14 @@
-// Import React and any other necessary dependencies
 import React from 'react';
 import './footer.css'; // Make sure to import your styles
-import fb from './2021_Facebook_icon.svg.webp'
-import li from './circle-linkedin-512.webp'
-import con from './pngtree-circle-phone-call-icon-in-black-color-png-image_6596895.png'
-import email from './7718904.png'
+import fb from './2021_Facebook_icon.svg.webp';
+import li from './circle-linkedin-512.webp';
+import con from './pngtree-circle-phone-call-icon-in-black-color-png-image_6596895.png';
+import email from './7718904.png';
 import { FaFacebookF } from "react-icons/fa";
 import { ImLinkedin2 } from "react-icons/im";
 import { MdAddCall } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
+
 
 // Define the Footer component
 const Footer = () => {
@@ -31,16 +31,6 @@ const Footer = () => {
           <li><a href="/page6">Marine, Cold room</a></li>
           <li><a href="/page7">Tools and Maintenance</a></li>
         </ul>
-        <hr />
-      </div>
-      <div className="footer-col">
-        <h4>company</h4>
-        <ul>
-          <li><a href="/aboutus">about</a></li>
-          
-          
-        </ul>
-        <hr />
       </div>
       <div className="footer-col">
         <h4>Contact us</h4>
@@ -49,6 +39,12 @@ const Footer = () => {
           <a href="tel:+94769673620"><i className="MdAddCall"><MdAddCall size={30} style={{marginBottom:'4px'}}/></i></a>
           <a href="mailto:info@hanaftraders.com"><i className="TfiEmail"><TfiEmail size={30} style={{marginBottom:'4px'}}/></i></a>
         </div>
+        <hr />
+      </div>
+      <div className="footer-col">
+        <h4>company</h4>
+     {/* Insert your company image here */}
+        <hr />
       </div>
     </footer>
   );
