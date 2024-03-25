@@ -13,6 +13,7 @@
 }
 #n1{
     width: 200%;
+  height: 100px;
     margin: 0px;
 }.carousel-heading {
   font-size: 32px; /* Adjust size as needed */
@@ -189,11 +190,20 @@
   margin-left: 130px;
   margin-top: 900px;
 }
+@media (max-width: 992px) {
+  #n1{
+    width: 200%;
+  height: auto;
+    margin: 0px;
+}
+  
+}
 
 @media (min-width: 992px) {
   #i3{
     display: none;
   }
+  
 }
 @media (max-width: 1200px) {
   .carousel-caption {

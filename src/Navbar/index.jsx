@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-
 import logo1 from "./logo1.png";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
@@ -51,7 +50,7 @@ function Navbar1() {
       >
         <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
         <a className="navbar-brand" href="/">
-                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}} src={logo1} alt="Logo" />
+                  <img id="i3" style={{ width: "35px", marginTop:'-100px',marginBottom:'-100px'}} src={logo1} alt="Logo" />
                 </a>
           <div className="container-fluid">
             <button
