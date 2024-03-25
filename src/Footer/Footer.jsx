@@ -8,6 +8,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { ImLinkedin2 } from "react-icons/im";
 import { MdAddCall } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
+import img1 from './logo1.png'
 
 
 // Define the Footer component
@@ -43,8 +44,10 @@ const Footer = () => {
       </div>
       <div className="footer-col">
         <h4>company</h4>
+        
      {/* Insert your company image here */}
         <hr />
+        <img style={{width:'250px',height:'200px',marginLeft:'-30px'}} src={img1} alt="Logo" />
       </div>
     </footer>
   );
