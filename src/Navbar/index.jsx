@@ -5,7 +5,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 
-import logo1 from "./logo1.png";
+
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from './logo55.png'
@@ -51,7 +51,7 @@ function Navbar1() {
       >
         <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
         <a className="navbar-brand" href="/">
-                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}} src={logo1} alt="Logo" />
+                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}}  alt="Logo" />
                 </a>
           <div className="container-fluid">
             <button
@@ -140,9 +140,7 @@ function Navbar1() {
 
                 </li>
                 
-                <a className="navbar-brand" href="/">
-                  <img id="i1" style={{ width: "35px", marginTop:'-70px',marginBottom:'-70px'}} src={logo1} alt="Logo" />
-                </a>
+             
               </ul>
               <img id="i2" style={{ width: "150px", marginTop:'-140px',marginBottom:'-170px'}} src={logo2} alt="Logo" />
               
