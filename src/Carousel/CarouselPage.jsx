@@ -10,8 +10,8 @@ import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
 import logo2 from "./logo1.png";
 import { Color } from "three";
-import { Link } from 'react-router-dom';
-import img6 from './logo1 copy.png'
+import { Link } from "react-router-dom";
+import img6 from "./logo1 copy.png";
 
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
@@ -44,10 +44,18 @@ function CarouselPage() {
         variant="dark"
         fixed="top"
       >
-        <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
+        <nav className="navbar navbar-expand-lg custom-navbar" id="n1">
           <a className="navbar-brand" href="/">
-            <img id="i3"  style={{ width: "0px", marginTop:'-140px',marginBottom:'-140px'}} src={img6} alt="Logo" />
-          
+            <img
+              id="i3"
+              style={{
+                width: "0px",
+                marginTop: "-140px",
+                marginBottom: "-140px",
+              }}
+              src={img6}
+              alt="Logo"
+            />
           </a>
           <div className="container-fluid">
             <button
@@ -62,7 +70,7 @@ function CarouselPage() {
                 backgroundColor: "#0de2f1 ",
                 marginLeft: "auto",
                 borderRadius: "5px",
-                marginTop:'-40px',
+                marginTop: "-40px",
                 width: "40px",
                 padding: "0px",
                 borderStyle: "none",
@@ -79,7 +87,7 @@ function CarouselPage() {
                 <NavItems NavItem name={"Home"} path={"/"} />
                 <NavItems NavItem name={"About Us"} path={"/aboutus"} />
                 <NavItems NavItem name={"Contact Us"} path={"#footer"} />
-            
+
                 <li className="nav-item dropdown ">
                   <a
                     className="nav-link "
@@ -90,34 +98,60 @@ function CarouselPage() {
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Categories <SlArrowDown  />
+                    Categories <SlArrowDown />
                   </a>
                   <div
-                    style={{ backgroundColor: 'black', borderRadius: '0px', width:'300px' }}
+                    style={{
+                      backgroundColor: "black",
+                      borderRadius: "0px",
+                      width: "300px",
+                    }}
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a className="" href="/page1">Electrical & Electronic</a>
-                    <a className="" href="/page2">Construction, Engineering hardware</a>
-                    <a className="" href="/page3">Spare Parts & Others</a>
-                    <a className="" href="/page4">Engineering products and accessories</a>
-                    <a className="" href="/page5">House Keeping, Laundry & Kitchen Departments</a>
-                    <a className="" href="/page6">Marine, Cold room, Swimming Pool</a>
-                    <a className="" href="/page7">Tools and Maintenance related</a>
+                    <a className="" href="/page1">
+                      Electrical & Electronic
+                    </a>
+                    <a className="" href="/page2">
+                      Construction, Engineering hardware
+                    </a>
+                    <a className="" href="/page3">
+                      Spare Parts & Others
+                    </a>
+                    <a className="" href="/page4">
+                      Engineering products and accessories
+                    </a>
+                    <a className="" href="/page5">
+                      House Keeping, Laundry & Kitchen Departments
+                    </a>
+                    <a className="" href="/page6">
+                      Marine, Cold room, Swimming Pool
+                    </a>
+                    <a className="" href="/page7">
+                      Tools and Maintenance related
+                    </a>
                   </div>
                 </li>
                 <a id="i2">
-                <img  style={{ width: "170px",height:'200px', marginTop:'-125px',marginBottom:'-170px',marginLeft:'85px'}} src={logo2} alt="Logo" />
-              </a>
-                
+                  <img
+                    style={{
+                      width: "170px",
+                      height: "200px",
+                      marginTop: "-125px",
+                      marginBottom: "-170px",
+                      marginLeft: "85px",
+                    }}
+                    src={logo2}
+                    alt="Logo"
+                  />
+                </a>
               </ul>
-         
             </div>
           </div>
         </nav>
       </Navbar>
-      
+
       <Carousel fade={true}>
         <Carousel.Item>
           <img
@@ -126,16 +160,10 @@ function CarouselPage() {
             src={img1}
             alt="First slide"
           />
-         <Carousel.Caption >
-         <h3 class="carousel-heading">
-  
-  <span class="black-text">THE LEADING ENGINEERING PRODUCTS </span>
-</h3>
-
-
-
-
-          
+          <Carousel.Caption>
+            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
+            </h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -145,11 +173,11 @@ function CarouselPage() {
             src={img2}
             alt="First slide"
           />
-
-         
-
-       
-       
+          <Carousel.Caption>
+            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
+            </h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -158,15 +186,14 @@ function CarouselPage() {
             src={img3}
             alt="First slide"
           />
-         
-        
-
-
-           
-     
+          <Carousel.Caption>
+            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
+            </h3>
+          </Carousel.Caption>
         </Carousel.Item>
+
       </Carousel>
-      
     </div>
   );
 }
