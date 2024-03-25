@@ -51,7 +51,7 @@ function Navbar1() {
       >
         <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
         <a className="navbar-brand" href="/">
-                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}} src={logo1} alt="Logo" />
+                  <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}}  alt="Logo" />
                 </a>
           <div className="container-fluid">
             <button
