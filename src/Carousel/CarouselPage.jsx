@@ -8,9 +8,10 @@ import img3 from "./img3.jpeg";
 import "./CarouselPage.css";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
-import logo2 from "./logo56.png";
+import logo2 from "./logo1.png";
 import { Color } from "three";
 import { Link } from 'react-router-dom';
+import img6 from './logo1 copy.png'
 
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
@@ -45,7 +46,7 @@ function CarouselPage() {
       >
         <nav className="navbar navbar-expand-lg custom-navbar"  id="n1">
           <a className="navbar-brand" href="/">
-            <img id="i3" style={{ width: "35px", marginTop:'-140px',marginBottom:'-140px'}}  alt="Logo" />
+            <img id="i3"  style={{ width: "0px", marginTop:'-140px',marginBottom:'-140px'}} src={img6} alt="Logo" />
           
           </a>
           <div className="container-fluid">
@@ -107,7 +108,7 @@ function CarouselPage() {
                   </div>
                 </li>
                 <a id="i2">
-                <img  style={{ width: "140px", marginTop:'-125px',marginBottom:'-170px',marginLeft:'85px'}} src={logo2} alt="Logo" />
+                <img  style={{ width: "170px",height:'200px', marginTop:'-125px',marginBottom:'-170px',marginLeft:'85px'}} src={logo2} alt="Logo" />
               </a>
                 
               </ul>
