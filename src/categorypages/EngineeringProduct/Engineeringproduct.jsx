@@ -29,16 +29,16 @@ import img20 from './modern-round-desk-fan-with-simple-background_23-2150808049.
 import img21 from "./Salamander Element L1250mm.jpg"
 import img22 from "./Clamp Tester Fluke Model - 317.jpg"
   const images = [
-    { id: 1, src: img1, title: 'Pneumatic hose 4MM (Meter)' },
+    { id: 1, src: img1, title: 'Pneumatic hose ' },
     { id: 2, src: img2, title: 'Bearring 6206 2RS' },
     { id: 3, src: img3, title: 'Cold Room Locks'},
     { id: 4, src: img4, title: 'Voltage Regulator 15FR' },
     { id: 1, src: img5, title: 'Cummins 40 KVA Gen Set Alternator'},
-   { id: 2, src: img6, title: 'Bain Marie Element L : 2350mm' },
+   { id: 2, src: img6, title: 'Bain Marie Element' },
    { id: 3, src: img7, title: 'Panel Board Key 4 Way' },
     { id: 4, src: img8, title: 'Analog Wall Mountable Phone' },
     { id: 1, src: img9, title: 'Heat Compound 40g Tube' },
-    { id: 2, src: img10, title: 'Universal Thermocouple 1200MM' },
+    { id: 2, src: img10, title: 'Universal Thermocouple ' },
     { id: 3, src: img11, title: 'Kelani Coil' },
     { id: 4, src: img12, title: 'Grech Pump CHJ4500' },
     { id: 1, src: img13, title: 'Dixel XR06CH' },
