@@ -199,8 +199,8 @@
   height: auto;
     margin: 0px;
 }
-#h31{
-    margin-left: 23px;
+.carousel-caption #h31{
+    margin-left: 200px;
   }
 }
 

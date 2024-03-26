@@ -210,8 +210,8 @@ const navbarBackground = scrolling
                     style={{
                       width: "170px",
                       height: "200px",
-                      marginTop: "-125px",
-                      marginBottom: "-170px",
+                      marginTop: "-65px",
+                      marginBottom: "-90px",
                       marginLeft: "85px",
                     }}
                     src={logo2}

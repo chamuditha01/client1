@@ -13,8 +13,10 @@ import { Color } from "three";
 import { Link } from "react-router-dom";
 import img6 from "./logo1 copy.png";
 
+
 function CarouselPage() {
   const [scrolling, setScrolling] = useState(false);
+  const isMobile = window.matchMedia("(max-width: 800px)").matches;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +33,12 @@ function CarouselPage() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const style = {
+    marginTop: '100px',
+    textAlign: 'left',
+    marginLeft: '-25%' // Adjusting marginLeft based on mobile view
+  };
 
   const navbarBackground = scrolling
     ? "white"
@@ -138,8 +146,8 @@ function CarouselPage() {
                     style={{
                       width: "170px",
                       height: "200px",
-                      marginTop: "-125px",
-                      marginBottom: "-170px",
+                      marginTop: "-65px",
+                      marginBottom: "-90px",
                       marginLeft: "85px",
                     }}
                     src={logo2}
@@ -161,7 +169,7 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+            <h3 id="h31" style={style}>
               <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
             </h3>
           </Carousel.Caption>
@@ -174,7 +182,7 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3 id="h31" style={{marginTop:'100px',textAlign:'left',marginLeft:'-30px'}}>
+            <h3 id="h31" style={style}>
               <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
             </h3>
           </Carousel.Caption>
@@ -187,9 +195,10 @@ function CarouselPage() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3  style={{marginTop:'100px',textAlign:'left',marginLeft:'-100px'}}>
-              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
-            </h3>
+          <h3 id="h31" style={style}>
+    <span class="black-text">THE LEADING ENGINEERING PRODUCTS</span>
+</h3>
+
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
