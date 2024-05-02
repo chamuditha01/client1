@@ -59,8 +59,23 @@ import img50 from "./Digital Temperature Controller - HT400-101000.jpg"
 import img51 from "./Motor Rewinding Coil Copper - Gauge 32.jpg"
 import img52 from "./Fuse -16A 500V(10 x 38).jpg"
 import img53 from "./Desoldering Pump - Joot Bran.jpg"
+import imgn1 from "./1.jpg"
+import imgn2 from "./2.jpg"
+import imgn3 from "./3.jpg"
+import imgn4 from "./4.jpg"
+import imgn5 from "./5.jpg"
+import imgn6 from "./6.jpg"
+import imgn7 from "./7.jpg"
+import imgn8 from "./8.jpg"
+import imgn9 from "./9.jpg"
+import imgn10 from "./10.jpg"
+import imgn11 from "./11.jpg"
+import imgn12 from "./12.jpg"
+import imgn13 from "./13.jpg"
+import imgn14 from "./14.jpg"
+
 import img54 from "./Relay 230V 10A - 8Pin.jpg"
-import img55 from "./Digital Multimeter CD800a - Sanwa.jpg"
+import img55 from "./68.jpg"
 import Navbar from "react-bootstrap/Navbar";
 import logo2 from '../../Carousel/logo1.png'
 import { SlArrowDown } from "react-icons/sl";
@@ -76,7 +91,7 @@ import { useEffect,useState } from 'react';
     { id: 1, src: img5, title: '110V Contactor LS mc18b'},
     { id: 2, src: img6, title: 'Projector Lamp' },
     { id: 3, src: img7, title: 'Head torch Heavy Duty' },
-    { id: 4, src: img9, title: '10mm 600/1000V Battery Wire ' },
+    { id: 4, src: img9, title: ' 600/1000V Battery Wire ' },
     { id: 1, src: img10, title: 'IGBT Transistor STGW30NC60KD' },
     { id: 2, src: img11, title: 'IRechargable Battery ' },
     { id: 3, src: img12, title: 'Micro Limit Switch Long Lever 16A 250V' },
@@ -85,8 +100,8 @@ import { useEffect,useState } from 'react';
     { id: 2, src: img15, title: 'USB Cable Type Mini' },
     { id: 3, src: img16, title: 'USB Cable Type Micro' },
     { id: 4, src: img17, title: 'USB Cable Type C' },
-    { id: 1, src: img18, title: '14MM Spring Washer' },
-    { id: 2, src: img19, title: 'Auto Wire 2mm 30 Mtr Roll' },
+    { id: 1, src: img18, title: ' Spring Washer' },
+    { id: 2, src: img19, title: 'Auto Wire 2mm ' },
     { id: 3, src: img20, title: 'Thermostat ATBF-133' },
     { id: 4, src: img21, title: '16MM Terminal Connector' },
     { id: 1, src: img22, title: 'Capacitor 50V 47uf' },
@@ -122,7 +137,21 @@ import { useEffect,useState } from 'react';
     { id:1, src: img52, title: 'Fuse -16A 500V(10 x 38)' },
     { id:1, src: img53, title: 'Desoldering Pump - Joot Bran' },
     { id:1, src: img54, title: 'Relay 230V 10A - 8Pin' },
-    { id:1, src: img55, title: 'Digital Multimeter CD800a - Sanwa' },
+    { id:1, src: img55, title: 'Testers & Multi Meters     ' },
+    { id:1, src: imgn1, title: 'Integrated Circuits (ICs)    ' },
+    { id:1, src: imgn2, title: 'Discrete Semiconductors    ' },
+    { id:1, src: imgn3, title: 'Capacitors    ' },
+    { id:1, src: imgn4, title: 'Resistors    ' },
+    { id:1, src: imgn5, title: 'connectors Interconnects    ' },
+    { id:1, src: imgn6, title: 'Switches    ' },
+    { id:1, src: imgn7, title: 'Relays    ' },
+    { id:1, src: imgn8, title: 'Transformers     ' },
+    { id:1, src: imgn9, title: 'Wire    ' },
+    { id:1, src: imgn10, title: 'Adapters    ' },
+    { id:1, src: imgn11, title: 'Contactors    ' },
+    { id:1, src: imgn12, title: 'Batteries    ' },
+    { id:1, src: imgn13, title: 'Sensors    ' },
+    { id:1, src: imgn14, title: 'Soldering Tools    ' },
   ];
   
 
