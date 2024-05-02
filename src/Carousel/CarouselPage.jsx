@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import img1 from "./img1.jpg";
 import img2 from "./carosel.png";
 import img3 from "./img3.jpeg";
+import img4 from "./img4.png"
 import "./CarouselPage.css";
 import { SlArrowDown } from "react-icons/sl";
 import NavItems from "../Navitems";
@@ -181,11 +182,7 @@ function CarouselPage() {
             src={img2}
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3 id="h31" style={style}>
-              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
-            </h3>
-          </Carousel.Caption>
+          
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -194,12 +191,16 @@ function CarouselPage() {
             src={img3}
             alt="First slide"
           />
-          <Carousel.Caption>
-          <h3 id="h31" style={style}>
-    <span class="black-text">THE LEADING ENGINEERING PRODUCTS</span>
-</h3>
-
-          </Carousel.Caption>
+         
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            style={{ height: "85vh", objectFit: "cover" }}
+            className="d-block w-100"
+            src={img4}
+            alt="First slide"
+          />
+  
         </Carousel.Item>
       </Carousel>
     </div>

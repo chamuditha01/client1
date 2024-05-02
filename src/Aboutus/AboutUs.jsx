@@ -9,15 +9,10 @@ const AboutUs = () => (
                 <h1> About us</h1>
           
             </div>
-            <div className='deatailsAbout' style={{textAlign:'center'}}>Trading companies are businesses working with
-                Different kinds of products which are sold for 
-                Consumer, business. We will provide any product
-                which is related to Resort maintenance.We 
-                supplying engineering products to resort in 
-                Maldives and all over the world. This is a mandatory
-                service which can helpresort run a smooth
-                operation,we are able to supply engineering,
-                maintenance and daily supply.</div>
+            <div className='deatailsAbout' style={{textAlign:'center'}}>HANAF Traders is a fast growing trading company in Sri Lanka that offers a vast variety of product exports including engineering, spare parts, maintenance products, and electronics to corporate entities and individuals worldwide.
+Specializing in the supply of resort maintenance and engineering products to the Maldives islands, we have consistently upheld our reputation for reliable quality, timely delivery, and competitive pricing over the years. Accurate recognition of the customer requirements and addressing them properly is our greatest strength and has been vital for our continuous growth.
+It is our vision to make HANAF a trade name in the field of global exports.
+</div>
         </div>
     </div>
 )
