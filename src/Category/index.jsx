@@ -14,13 +14,13 @@ import TrackVisibility from 'react-on-screen';
 
 const ImageGrid = () => {
   const images = [
-    { id: 1, src: img1, title: 'Electrical & Electronic',href:'page1' },
-    { id: 2, src: img2, title: 'Construction, Engineering hardware',href:'page2' },
-    { id: 3, src: img3, title: 'Spare Parts & Others',href:'page3' },
-    { id: 1, src: img4, title: 'Engineering products and accessories' ,href:'page4'},
-    { id: 2, src: img5, title: 'House Keeping, Laundry & Kitchen Departments',href:'page5'},
-    { id: 3, src: img6, title: 'Marine, Cold room, Swimming Pool',href:'page6' },
-    { id: 1, src: img7, title: 'Tools and Maintenance related',href:'page7' },
+    { id: 1, src: img1, title: 'Electrical and Electronic Equipment',href:'page1' },
+    { id: 2, src: img2, title: 'Construction Materials',href:'page2' },
+    { id: 3, src: img3, title: 'Spare Parts and Miscellaneous',href:'page3' },
+    { id: 1, src: img4, title: 'Engineering Accessories' ,href:'page4'},
+    { id: 2, src: img5, title: 'Housekeeping, Laundry, and Kitchen Supplies',href:'page5'},
+    { id: 3, src: img6, title: 'Marine, Cold Room and Swimming Pool Accessories',href:'page6' },
+    { id: 1, src: img7, title: 'Tools and Maintenance Supplies',href:'page7' },
     { id: 3, src: img8, title: 'Others' ,href:'page8'}
   ];
   

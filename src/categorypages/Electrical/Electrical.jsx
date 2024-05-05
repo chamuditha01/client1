@@ -41,7 +41,7 @@ import img32 from './Solder remover wic wire.jpg'
 import img33 from './Diode 1.5K.jpg'
 import img34 from './RS 485 to USB Connector.jpg'
 import img35 from './Timer Anly.jpg'
-import img36 from './Digital thermostat Brand.jpg'
+import img36 from './49.jpg'
 import img37 from './Mosfet G20N50C.jpg'
 import img38 from './Rectifier MGF65A4R.jpg'
 import img39 from './Rectifier IRF3710 P725P.jpg'
@@ -84,60 +84,6 @@ import { useEffect,useState } from 'react';
 
 
   const images = [
-    { id: 1, src: Extension, title: 'Orange Extension Cord    ' },
-    { id: 2, src: Resistant, title: ' Heat Resistant Fiberglass Sleeve    ' },
-    { id: 3, src: Heat, title: 'Heat Shrink Sleeve    '},
-    { id: 4, src: Adaptor, title: 'AC DC Adaptor Input 100-220VAC Out Put 6VDVC 1A    ' },
-    { id: 1, src: img5, title: '110V Contactor LS mc18b'},
-    { id: 2, src: img6, title: 'Projector Lamp' },
-    { id: 3, src: img7, title: 'Head torch Heavy Duty' },
-    { id: 4, src: img9, title: ' 600/1000V Battery Wire ' },
-    { id: 1, src: img10, title: 'IGBT Transistor STGW30NC60KD' },
-    { id: 2, src: img11, title: 'IRechargable Battery ' },
-    { id: 3, src: img12, title: 'Micro Limit Switch Long Lever 16A 250V' },
-    { id: 4, src: img13, title: 'Battery 4V 300mA Wei Sheng' },
-    { id: 1, src: img14, title: 'PCB Mount capacitor CBB61 2.5uf 400vac  ' },
-    { id: 2, src: img15, title: 'USB Cable Type Mini' },
-    { id: 3, src: img16, title: 'USB Cable Type Micro' },
-    { id: 4, src: img17, title: 'USB Cable Type C' },
-    { id: 1, src: img18, title: ' Spring Washer' },
-    { id: 2, src: img19, title: 'Auto Wire 2mm ' },
-    { id: 3, src: img20, title: 'Thermostat ATBF-133' },
-    { id: 4, src: img21, title: '16MM Terminal Connector' },
-    { id: 1, src: img22, title: 'Capacitor 50V 47uf' },
-    { id: 2, src: img23, title: '230V AC fan 4 Inch' },
-    { id: 3, src: img24, title: 'TCI 12706' },
-    { id: 4, src: img25, title: 'Cooling Fan' },
-    { id: 1, src: img26, title: 'LED Cold Room Light 230V' },
-    { id: 2, src: img27, title: 'IC HC 40 53A' },
-    { id: 3, src: img28, title: 'Capacitor 60uf 230V' },
-    { id: 4, src: img29, title: 'Capacitor 120uf 230V' },
-    { id: 1, src: img30, title: 'Fork Lug 1.5mm' },
-    { id: 2, src: img31, title: 'cable Lug 1.5mm Male' },
-    { id: 3, src: img32, title: 'Solder remover wic wire' },
-    { id: 4, src: img33, title: 'Diode 1.5K' },
-    { id: 1, src: img34, title: 'RS 485 to USB Connector' },
-    { id: 2, src: img35, title: 'Timer Anly' },
-    { id: 3, src: img36, title: 'Digital thermostat Brand' },
-    { id: 4, src: img37, title: 'Mosfet G20N50C' },
-    { id: 1, src: img38, title: 'Rectifier MGF65A4R' },
-    { id: 2, src: img39, title: 'Rectifier IRF3710 P725P' },
-    { id: 3, src: img40, title: 'Universal Power Supply Module' },
-    { id:4, src: img41, title: 'Toggle Switch with Covere' },
-    { id:1, src: img42, title: 'IC ADS 1243' },
-    { id:2, src: img43, title: 'Led Driver Primary voltage - 190-265V Secondary Voltage - 24-50V' },
-    { id:3, src: img44, title: 'Fiber Glass Sleeve' },
-    { id:3, src: img45, title: 'Rectifier H26FF Y2010DN' },
-    { id:3, src: img46, title: 'Solder remover wic wire' },
-    { id:3, src: img47, title: '5W74Ohm - Ceramic Resistor' },
-    { id:1, src: img48, title: 'LDNIO C Type Cable - White & Blue' },
-    { id:1, src: img49, title: 'Power Supply - SKC Anver 230V 200MA 12V' },
-    { id:1, src: img50, title: 'Digital Temperature Controller - HT400-101000' },
-    { id:1, src: img51, title: 'Motor Rewinding Coil Copper - Gauge 32' },
-    { id:1, src: img52, title: 'Fuse -16A 500V(10 x 38)' },
-    { id:1, src: img53, title: 'Desoldering Pump - Joot Bran' },
-    { id:1, src: img54, title: 'Relay 230V 10A - 8Pin' },
-    { id:1, src: img55, title: 'Testers & Multi Meters     ' },
     { id:1, src: imgn1, title: 'Integrated Circuits (ICs)    ' },
     { id:1, src: imgn2, title: 'Discrete Semiconductors    ' },
     { id:1, src: imgn3, title: 'Capacitors    ' },
@@ -152,6 +98,33 @@ import { useEffect,useState } from 'react';
     { id:1, src: imgn12, title: 'Batteries    ' },
     { id:1, src: imgn13, title: 'Sensors    ' },
     { id:1, src: imgn14, title: 'Soldering Tools    ' },
+    { id: 1, src: Extension, title: 'Extension Cord    ' },
+    { id: 2, src: Resistant, title: ' High Temperature Sleeves    ' },
+   
+    
+   
+    { id: 2, src: img6, title: 'Projectors Lamps    ' },
+  
+    { id: 4, src: img9, title: 'AC Wires     ' },
+  
+   
+    { id: 3, src: img24, title: 'Thermoelectric Coolers    ' },
+    { id: 4, src: img25, title: 'AC , DC Cooling Fans    ' },
+    { id: 1, src: img26, title: 'Rechargeable Lights    ' },
+   
+    { id: 1, src: img30, title: 'Lugs    ' },
+
+   
+    { id: 2, src: img35, title: 'Timers    ' },
+    { id: 3, src: img36, title: 'Temperature Controllers    ' },
+   
+    
+    { id: 3, src: img40, title: 'Supply Modules     ' },
+    { id:4, src: img41, title: 'Weatherproof Accessories    ' },
+
+   
+    { id:1, src: img55, title: 'Testers & Multi Meters    ' },
+    
   ];
   
 
@@ -259,26 +232,26 @@ const Electrical = () => {
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a className="" href="/page1">
-                      Electrical & Electronic
+                     <a className="" href="/page1">
+                    Electrical and Electronic Equipment
                     </a>
                     <a className="" href="/page2">
-                      Construction, Engineering hardware
+                    Construction Materials
                     </a>
                     <a className="" href="/page3">
-                      Spare Parts & Others
+                    Spare Parts and Miscellaneous
                     </a>
                     <a className="" href="/page4">
-                      Engineering products and accessories
+                    Engineering Accessories
                     </a>
                     <a className="" href="/page5">
-                      House Keeping, Laundry & Kitchen Departments
+                    Housekeeping, Laundry, and Kitchen Supplies
                     </a>
                     <a className="" href="/page6">
-                      Marine, Cold room, Swimming Pool
+                    Marine, Cold Room and Swimming Pool Accessories
                     </a>
                     <a className="" href="/page7">
-                      Tools and Maintenance related
+                    Tools and Maintenance Supplies
                     </a>
                   </div>
                 </li>
@@ -303,7 +276,7 @@ const Electrical = () => {
       <SocialIcons/>
       <div>
     <div id="igmdiv" >
-        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>Electrical And Electronic</h1>
+        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>Electrical and Electronic Equipment</h1>
     <TrackVisibility partialVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>

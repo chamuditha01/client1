@@ -28,6 +28,7 @@ import SocialIcons from '../../SocialIcons';
 import img20 from './modern-round-desk-fan-with-simple-background_23-2150808049.avif'
 import img21 from "./Salamander Element L1250mm.jpg"
 import img22 from "./Clamp Tester Fluke Model - 317.jpg"
+import imgnew from "./23.jpg"
 import Navbar from "react-bootstrap/Navbar";
 import logo2 from '../../Carousel/logo1.png'
 import { SlArrowDown } from "react-icons/sl";
@@ -37,26 +38,21 @@ import { useEffect,useState } from 'react';
   const images = [
     { id: 1, src: img1, title: 'Pneumatic hose ' },
     { id: 2, src: img2, title: 'Bearring 6206 2RS' },
-    { id: 3, src: img3, title: 'Cold Room Locks'},
-    { id: 4, src: img4, title: 'Voltage Regulator 15FR' },
-    { id: 1, src: img5, title: 'Cummins 40 KVA Gen Set Alternator'},
-   { id: 2, src: img6, title: 'Bain Marie Element' },
-   { id: 3, src: img7, title: 'Panel Board Key 4 Way' },
-    { id: 4, src: img8, title: 'Analog Wall Mountable Phone' },
-    { id: 1, src: img9, title: 'Heat Compound 40g Tube' },
-    { id: 2, src: img10, title: 'Universal Thermocouple ' },
-    { id: 3, src: img11, title: 'Kelani Coil' },
-    { id: 4, src: img12, title: 'Grech Pump CHJ4500' },
-    { id: 1, src: img13, title: 'Dixel XR06CH' },
-    { id: 2, src: img14, title: 'H3 Bulb' },
-    { id: 3, src: img15, title: 'Schneider Contactor LC1K1210M7' },
-    { id: 4, src: img16, title: 'Imhoff Cone Testing Kit' },
-    { id: 1, src: img17, title: 'LPG Gas Regulator - HWA Young' },
-    { id: 2, src: img18, title: 'ABB Contactor 141001R8000' },
-    { id: 3, src: img19, title: 'SS Heating Element' },
-    { id: 4, src: img20, title: '12" Axial Fan 2D-300S-92/35-GAruki Brand' },
-    { id: 3, src: img21, title: 'Salamander Element L:1250mm' },
-    { id: 3, src: img22, title: 'Clamp Tester Fluke Model - 317' },
+    { id: 3, src: img3, title: 'Locks'},
+    { id: 4, src: img4, title: 'Regulators' },
+    { id: 1, src: img5, title: 'Alternator    '},
+   { id: 2, src: img6, title: 'Heat Elements   ' },
+   { id: 3, src: img7, title: 'Panel Keys   ' },
+    { id: 4, src: img8, title: 'Wall Phones    ' },
+    { id: 1, src: img9, title: 'Compounds    ' },
+    { id: 2, src: img10, title: 'Thermocouples    ' },
+    { id: 3, src: img11, title: 'Coils    ' },
+    { id: 4, src: img12, title: 'Pumps    ' },
+    { id: 1, src: img13, title: 'Temperature Controllers    ' },
+    { id: 2, src: img14, title: 'Bulbs    ' },
+    { id: 3, src: img15, title: 'Contactors    ' },
+    { id: 4, src: img16, title: 'Testing Kits    ' },
+   ,  { id: 4, src: imgnew, title: 'Filters   ' },
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
@@ -164,26 +160,26 @@ const navbarBackground = scrolling
                     aria-labelledby="navbarDropdown"
                     id="a1"
                   >
-                    <a className="" href="/page1">
-                      Electrical & Electronic
+                <a className="" href="/page1">
+                    Electrical and Electronic Equipment
                     </a>
                     <a className="" href="/page2">
-                      Construction, Engineering hardware
+                    Construction Materials
                     </a>
                     <a className="" href="/page3">
-                      Spare Parts & Others
+                    Spare Parts and Miscellaneous
                     </a>
                     <a className="" href="/page4">
-                      Engineering products and accessories
+                    Engineering Accessories
                     </a>
                     <a className="" href="/page5">
-                      House Keeping, Laundry & Kitchen Departments
+                    Housekeeping, Laundry, and Kitchen Supplies
                     </a>
                     <a className="" href="/page6">
-                      Marine, Cold room, Swimming Pool
+                    Marine, Cold Room and Swimming Pool Accessories
                     </a>
                     <a className="" href="/page7">
-                      Tools and Maintenance related
+                    Tools and Maintenance Supplies
                     </a>
                   </div>
                 </li>
@@ -208,7 +204,7 @@ const navbarBackground = scrolling
       <SocialIcons/>
       <div>
     <div id="igmdiv" >
-        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>Engineering Products And Accessories</h1>
+        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>Engineering Accessories</h1>
     <TrackVisibility partialVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>

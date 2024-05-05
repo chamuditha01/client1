@@ -120,25 +120,25 @@ function CarouselPage() {
                     id="a1"
                   >
                     <a className="" href="/page1">
-                      Electrical & Electronic
+                    Electrical and Electronic Equipment
                     </a>
                     <a className="" href="/page2">
-                      Construction, Engineering hardware
+                    Construction Materials
                     </a>
                     <a className="" href="/page3">
-                      Spare Parts & Others
+                    Spare Parts and Miscellaneous
                     </a>
                     <a className="" href="/page4">
-                      Engineering products and accessories
+                    Engineering Accessories
                     </a>
                     <a className="" href="/page5">
-                      House Keeping, Laundry & Kitchen Departments
+                    Housekeeping, Laundry, and Kitchen Supplies
                     </a>
                     <a className="" href="/page6">
-                      Marine, Cold room, Swimming Pool
+                    Marine, Cold Room and Swimming Pool Accessories
                     </a>
                     <a className="" href="/page7">
-                      Tools and Maintenance related
+                    Tools and Maintenance Supplies
                     </a>
                   </div>
                 </li>
@@ -171,7 +171,7 @@ function CarouselPage() {
           />
           <Carousel.Caption>
             <h3 id="h31" style={style}>
-              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS </span>
+              <span class="black-text" >THE LEADING ENGINEERING PRODUCTS SUPPLIER </span>
             </h3>
           </Carousel.Caption>
         </Carousel.Item>
