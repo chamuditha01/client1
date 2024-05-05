@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import img1 from "./img1.jpg";
 import img2 from "./carosel.png";
-import img3 from "./img3.jpeg";
+import img3 from "./img3.jpg";
 import img4 from "./img4.png"
 import "./CarouselPage.css";
 import { SlArrowDown } from "react-icons/sl";

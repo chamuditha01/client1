@@ -16,7 +16,27 @@ import img8 from './Tiki Torch Wick (Meter).jpg'
 import img9 from './2CM Oil Lamp Wick.jpg'
 import img10 from './Garbadge Bags XXXL.jpg'
 import SocialIcons from '../../SocialIcons';
-import img11 from "./Rice Cooker - Bush.jpg"
+
+import img12 from "./12.jpg";
+import img13 from "./13.jpg";
+import img14 from "./14.jpg";
+import img15 from "./15.jpg";
+import img16 from "./16.jpg";
+import img17 from "./17.jpg";
+import img18 from "./18.jpg";
+import img19 from "./19.jpg";
+import img20 from "./20.jpg";
+import img21 from "./21.jpg";
+import img22 from "./22.jpg";
+import img23 from "./23.jpg";
+import img24 from "./24.jpg";
+import img25 from "./25.jpg";
+import img26 from "./26.jpg";
+import img27 from "./27.jpg";
+import img28 from "./28.jpg";
+import img29 from "./29.jpg";
+import img30 from "./30.jpg";
+
 import Navbar from "react-bootstrap/Navbar";
 import logo2 from '../../Carousel/logo1.png'
 import { SlArrowDown } from "react-icons/sl";
@@ -24,17 +44,36 @@ import NavItems from '../../Navitems';
 import { useEffect,useState } from 'react';
 
   const images = [
-    { id: 1, src: RubberMatt, title: 'Rubber Matt 16 x 24' },
-    { id: 2, src: img2, title: '6feet Luggage Rope' },
-    { id: 3, src: img3, title: 'Confectionery Funnel'},
-   { id: 4, src: img4, title: 'Steel Wool' },
-    { id: 1, src: img5, title: 'Chiminey Wicks'},
-     { id: 2, src: img6, title: 'SS Confectionery Funnel with Stand' },
-    { id: 3, src: img7, title: 'Oil Seal for Laundry Dryer 25 37 7 14 YXDJ' },
-    { id: 4, src: img8, title: 'Tiki Torch Wick (Meter)' },
-    { id: 1, src: img9, title: '2CM Oil Lamp Wick' },
-    { id: 2, src: img10, title: 'Garbadge Bags XXXL' },
-    { id: 1, src: img11, title: 'Rice Cooker - Bush' },
+    { id: 1, src: RubberMatt, title: 'Matts    ' },
+    { id: 2, src: img2, title: 'Lugging Ropes    ' },
+    { id: 3, src: img3, title: 'Funnels    '},
+   { id: 4, src: img4, title: 'Steel Cleaning Wools   ' },
+    { id: 1, src: img5, title: 'Chiminey Wicks    '},
+   
+    { id: 4, src: img8, title: 'Tiki Torches    ' },
+    { id: 1, src: img9, title: 'Lamp Wicks    ' },
+    { id: 2, src: img10, title: 'Garbage Bags    ' },
+   
+    { id: 1, src: img12, title: 'Brooms and Dustpans   '},
+    { id: 1, src: img13, title: 'Carpet and Entrance Floor Mats   '},
+    { id: 1, src: img14, title: 'Disposable Gloves   '},
+    { id: 1, src: img15, title: 'Dusters   '},
+    { id: 1, src: img16, title: 'Hotel Housekeeping Carts  '},
+    { id: 1, src: img17, title: 'Janitorial Brushes  '},
+    { id: 1, src: img18, title: 'Laundry Carts   '},
+    { id: 1, src: img19, title: 'Commercial Laundry Detergent   '},
+    { id: 1, src: img20, title: 'Commercial Light Bulbs  '},
+    { id: 1, src: img21, title: 'Lockers    '},
+    { id: 1, src: img22, title: 'Trash Can Liners '},
+    { id: 1, src: img23, title: 'Urinal Cakes and Urinal Screens    '},
+    { id: 1, src: img24, title: 'Vacuum Cleaners '},
+    { id: 1, src: img25, title: 'Gas & Steam Line   '},
+    { id: 1, src: img26, title: 'Exhaust Duct Line  '},
+    { id: 1, src: img27, title: 'Working Tables '},
+    { id: 1, src: img28, title: 'Hand Wash Sink Table    '},
+    { id: 1, src: img29, title: 'Bain Mari   '},
+    { id: 1, src: img30, title: 'Bakery Trolley    '},
+   
   ];
   const numberOfRows = Math.ceil(images.length / 4);
   const lastRowIndex = numberOfRows - 1;
@@ -187,7 +226,7 @@ const navbarBackground = scrolling
       <SocialIcons/>
       <div>
     <div id="igmdiv" >
-        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}>House Keeping, Loundry And Kitchen Departments</h1>
+        <h1 style={{marginBottom:'50px', textAlign:'center',marginTop:'150px'}}> Housekeeping, Laundry, and Kitchen Supplies</h1>
     <TrackVisibility partialVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": "invisible"}>

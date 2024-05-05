@@ -5,13 +5,13 @@ import { Row, Col, Container } from 'react-bootstrap';
 import './index.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import img1 from './Yoma Door Closer for Sliding Door.png';
+import img1 from './unnamed.jpg';
 import img2 from './glass-sliding-door-glass-partition-with-handle_427957-213.jpg'
 import img3 from './tools-materials-sanitary-works_93675-131724.avif'
-import img4 from './Golden Fuji Gas Adaptor.jpg'
-import img5 from './BI Socket 1 Inch.jpg'
+import img4 from './4.jpg'
+import img5 from './5.jpg'
 import img6 from './Aluminum Sliding Door Locks.jpg'
-import img7 from './Yoma Door Closer for Sliding Door.png'
+import img7 from './new.png'
 import img8 from './480GB Internal Solid State Drive (SSD).jpg'
 import img9 from "./Glass Strip 10mm.jpg";
 import img10 from "./Self Adhesive Weather Strip (Meter).jpg";
@@ -21,7 +21,7 @@ import img13 from "./Full Face Safety Visor.jpg";
 import img14 from "./Steam Solenoid Valve 1.jpg";
 import img15 from "./bolts-nuts.jpg"
 import img16 from "./Track Buffer for Sliding Door - Hafele.jpg";
-import img17   from "./SS Mat Hingus.jpg";
+import img17   from "./16.jpg";
 import img18   from "./Gasket Sheet 3mm 5FT x 5FT.jpg"
 import img19   from "./SW 304 Shower Hinge.jpg"
 import img20   from "./SS Steam Hose Nipple 34 x 2feet.jpg"
@@ -45,36 +45,31 @@ import { useEffect,useState } from 'react';
 
 
   const images = [
-    { id: 1, src: img1, title: 'Yoma Sliding Door Closer 110D' },
-    { id: 2, src: img2, title: 'glass-sliding-door' },
-    { id: 3, src: img3, title: 'Neumatic Nippel - Male '},
-    { id: 4, src: img4, title: 'Golden Fuji Gas Adaptor' },
-    { id: 1, src: img5, title: 'BI Socket '},
-    { id: 2, src: img6, title: 'Aluminum Sliding Door Locks' },
-    { id: 3, src: img7, title: 'Yoma Door Closer for Sliding Door' },
-    { id: 4, src: img8, title: '480GB Internal Solid State Drive (SSD)' },
-    { id: 1, src: img10, title: 'Self Adhesive Weather Strip'},
-    { id: 2, src: img11, title: ' Steam ball cock Valve Kitz'},
-    { id: 3, src: img12, title: 'Pegler Ball Cock Valve'},
-    { id: 4, src: img13, title: 'Full Face Safety Visor'},
-    { id: 1, src: img14, title: 'Steam Solenoid Valve'},
-    { id: 2, src: img15, title: 'Black Iron Bolt '},
-    { id: 3, src: img16, title: 'Track Buffer for Sliding Door - Hafele'},
-    { id: 4, src: img17, title: 'SS Mat Hingus'},
-    { id: 1, src: img18, title: 'Gasket Sheet '},
-    { id: 2, src: img19, title: 'SW 304 Shower Hinge'},
-    { id: 3, src: img20, title: 'SS Steam Hose Nipple '},
-    { id: 4, src: img21, title: 'BI Socket - Threaded '},
-    { id: 1, src: img22, title: 'SS Barrel Nipple '},
-    { id: 2, src: img23, title: 'Sliding door locks'},
-    { id: 3, src: img24, title: 'Sliding door wheel'},
-    { id: 4, src: img25, title: 'Door Seal Beading - Brown'},
-    { id: 1, src: img26, title: 'Bi 3/4 Elbow'},
-    { id: 2, src: img27, title: 'Pegler Ball Cock Valve '},
-    { id: 3, src: img28, title: '1" Solenoid UniD Valve - US-25 Brand - UniD'},
-    { id: 4, src: img29, title: 'Steam Solenoid Valve '},
-    { id: 1, src: img30, title: 'Gumboot White '},
-    { id: 1, src: img31, title: 'Glass Strip '},
+    { id: 1, src: img1, title: 'Aluminium Accessories    ' },
+    { id: 2, src: img2, title: 'Aluminium Door & Window Box Bars    ' },
+    { id: 3, src: img3, title: 'Pneumatic System Components    '},
+    { id: 4, src: img4, title: 'Standard Gas Accessories    ' },
+    { id: 1, src: img5, title: 'Plumbing Accessories    '},
+    { id: 2, src: img6, title: 'Locks    ' },
+    { id: 3, src: img7, title: 'Door Closers    ' },
+    
+    { id: 1, src: img10, title: 'Weather Strips & Gaskets    '},
+    { id: 2, src: img11, title: ' Standard Valves    '},
+    
+    { id: 4, src: img13, title: 'Safety Equipment    '},
+    { id: 1, src: img14, title: 'Solenoids Valves    '},
+    { id: 2, src: img15, title: 'Bolts    '},
+    { id: 3, src: img16, title: 'Buffers    '},
+    { id: 4, src: img17, title: 'Hinges    '},
+    { id: 1, src: img18, title: 'Rubber Sheets    '},
+    
+   
+
+    { id: 3, src: img24, title: 'Wheels    '},
+    { id: 4, src: img25, title: 'Seal Beadings    '},
+   
+    { id: 1, src: img30, title: 'Boots    '},
+   
    
   ];
   const numberOfRows = Math.ceil(images.length / 4);
