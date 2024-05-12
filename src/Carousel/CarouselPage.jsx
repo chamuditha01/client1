@@ -189,20 +189,21 @@ function CarouselPage() {
           <img
             style={{ height: "85vh", objectFit: "cover" }}
             className="d-block w-100"
-            src={img3}
-            alt="First slide"
-          />
-         
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            style={{ height: "85vh", objectFit: "cover" }}
-            className="d-block w-100"
             src={img4}
             alt="First slide"
           />
   
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            style={{ height: "85vh", objectFit: "cover" }}
+            className="d-block w-100"
+            src={img3}
+            alt="First slide"
+          />
+         
+        </Carousel.Item>
+       
       </Carousel>
     </div>
   );
